@@ -33,7 +33,7 @@ public class Character : MonoBehaviour
     }
     private void MakeAIDecision()
     {
-        int offer =  auctionManager.maxOffer + 50;
+        int offer =  AuctionManager.maxOffer + 50;
         auctionManager.MadeDecision(playerIndex, offer);
     }
     private IEnumerator TurnTimer()
