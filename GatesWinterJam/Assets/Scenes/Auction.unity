@@ -333,6 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: player
   budget: 111
+  turnDuration: 30
   playerIndex: 0
 --- !u!4 &83290822
 Transform:
@@ -773,6 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: ai 2
   budget: 150
+  turnDuration: 3
   playerIndex: 0
 --- !u!4 &592320751
 Transform:
@@ -1297,7 +1299,7 @@ MonoBehaviour:
   - {fileID: 83290820}
   - {fileID: 1507397406}
   - {fileID: 592320749}
-  playerTurnTime: 30
+  playerTurnTime: 10
   AITurnTime: 3
   selectedItem: {fileID: 0}
   offers: 
@@ -1484,6 +1486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: ai 1
   budget: 50
+  turnDuration: 3
   playerIndex: 0
 --- !u!4 &1507397408
 Transform:
@@ -1793,7 +1796,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1777876057
 RectTransform:
   m_ObjectHideFlags: 0

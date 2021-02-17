@@ -17,7 +17,7 @@ public class AuctionManager : MonoBehaviour
     // if only 1 player bids in any of the rounds(meaning no competition), then auction ends that round.
     int roundNumber;
     int currentPlayer;
-
+    int turnsPlayedThisRound;
     public void Start()
     {
         offers = new int[players.Count];
@@ -26,55 +26,92 @@ public class AuctionManager : MonoBehaviour
     public void PlaySession()
     {
         PickItem();
-        roundNumber = 1;
-        StartCoroutine(PlayRound());
+        roundNumber = 0;
+        currentPlayer = 0; // TODO: last sessions winner starts.
+        turnsPlayedThisRound = 0;
+        //StartCoroutine(PlayRound());
+        PlayTurn(currentPlayer);
     }
-    public void NextRound()
+    private void NextRound()
     {
         roundNumber++;
         if (roundNumber == maxRoundCount) EndSession();
         else
         {
-            StartCoroutine(PlayRound());
+            //StartCoroutine(PlayRound());
+            currentPlayer = 0;
+            turnsPlayedThisRound = 0;
+            PlayTurn(currentPlayer);
         }
     }
-    public IEnumerator PlayRound()
+    //private IEnumerator PlayRound()
+    //{
+    //    //    for(int i = 0; i < players.Count; i++)
+    //    //    {
+    //    //        currentPlayer = i;
+    //    //        // show turn, activate UI if players turns.
+    //    //        Debug.Log("Player " + i + "'s turn.");
+
+    //    //        float turnTime;
+    //    //        if (i == 0) //only if player
+    //    //        {
+    //    //            FindObjectOfType<OfferUI>().ShowOfferUI(maxOffer);
+    //    //            turnTime = playerTurnTime;
+    //    //        }
+    //    //        else
+    //    //        {
+    //    //            turnTime = AITurnTime;
+    //    //            FindObjectOfType<OfferUI>().HideOfferUI();
+    //    //        }
+
+    //    //        players[i].GetComponent<Character>().PlayTurn(i);
+    //    //        //RegisterOffer(i, offerAmount);
+    //    //        yield return new WaitForSecondsRealtime(turnTime);
+    //    // refresh UI to show changes.
+    ////}
+    //    //NextRound();
+    //}
+    private void PlayTurn(int playerIndex)
     {
-        for(int i = 0; i < players.Count; i++)
+        Debug.Log("Player " + playerIndex + "'s turn.");
+        if (playerIndex == 0) //only if human player
         {
-            currentPlayer = i;
-            // show turn, activate UI if players turns.
-            Debug.Log("Player " + i + "'s turn.");
-
-            float turnTime;
-            if (i == 0) //only if player
-            {
-                FindObjectOfType<OfferUI>().ShowOfferUI(maxOffer);
-                turnTime = playerTurnTime;
-            }
-            else
-            {
-                turnTime = AITurnTime;
-                FindObjectOfType<OfferUI>().HideOfferUI();
-            }
-
-            players[i].GetComponent<Character>().PlayTurn(i);
-            //RegisterOffer(i, offerAmount);
-            yield return new WaitForSecondsRealtime(turnTime);
-            // refresh UI to show changes.
+            FindObjectOfType<OfferUI>().ShowOfferUI(maxOffer);
         }
-        NextRound();
-    }
+        else
+        {
+            FindObjectOfType<OfferUI>().HideOfferUI();
+        }
 
+        players[playerIndex].GetComponent<Character>().PlayTurn(playerIndex);
+        //RegisterOffer(i, offerAmount);
+    }
     public void MadeDecision(int playerIndex, int offerAmount) // players should call this when decision is made.
     {
-        if(playerIndex == currentPlayer)
+        if (offerAmount != maxOffer)
         {
+            Debug.Log("Player " + playerIndex + " offered " + offerAmount + " dollars");
             RegisterOffer(playerIndex, offerAmount);
+        }
+        else Debug.Log("Player " + playerIndex + " passed.");
+        NextTurn();
+    }
 
-            Debug.Log("Offered " + offerAmount + " dollars");
+    private void NextTurn()
+    {
+        turnsPlayedThisRound++;
+        currentPlayer = (currentPlayer + 1) % players.Count; //support wrap around.
+        if(turnsPlayedThisRound >= players.Count) // all players have played this round, end of round
+        {
+            Debug.Log("Round " + roundNumber + " ended.");
+            NextRound();
+        }
+        else
+        {
+            PlayTurn(currentPlayer);
         }
     }
+    
     private void RegisterOffer(int playerIndex, int amount)
     {
         if (amount > maxOffer) 
@@ -90,14 +127,14 @@ public class AuctionManager : MonoBehaviour
             offers[playerIndex] = amount;
         }
     }
-    public void EndSession()
+    private void EndSession()
     {
         // show who won this item.
         Debug.Log("Player " + maxOfferOwner + " has won the " + selectedItem.name);
 
         // switch to dialogue scene
     }
-    public void PickItem()
+    private void PickItem()
     {
         selectedItem = items[Random.Range(0, items.Count)];
         Debug.Log("selling item " + selectedItem.name + " this session.");
