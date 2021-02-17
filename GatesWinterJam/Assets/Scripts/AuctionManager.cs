@@ -1,82 +1,131 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class AuctionManager : MonoBehaviour
 {
+
     public List<GameObject> items;
     public List<GameObject> players; //player 0 is human player.
+    public GameObject itemSoldNotifUI;
+    public TextMeshProUGUI itemSoldText;
+    public TextMeshProUGUI roundCounter;
+
     public float playerTurnTime = 30f;
     public float AITurnTime = 3f;
-    public GameObject selectedItem;
-    public int[] offers;
-    public static int maxOffer;
-    public int maxOfferOwner;
-
-    public int maxRoundCount = 3; // item will be sold to highest bidder at the end of round 3. 
+    public int offerIncreaseAmount = 50;
+    public int maxRoundCount = 5; // item will be sold to highest bidder at the end of round 5. 
     // if only 1 player bids in any of the rounds(meaning no competition), then auction ends that round.
+
+    [HideInInspector] public GameObject selectedItem;
+    [HideInInspector] public int[] offers;
+    [HideInInspector] public int maxOffer;
+    [HideInInspector] public int maxOfferOwner;
+
     int roundNumber;
     int currentPlayer;
     int turnsPlayedThisRound;
-    public void Start()
+    bool[] passed;
+    public void Awake()
     {
         offers = new int[players.Count];
-        PlaySession();
+        passed = new bool[players.Count];
+        for (int i = 0; i < passed.Length; i++) passed[i] = false;
+        //StartSession(0);
     }
-    public void PlaySession()
+    public bool isLastRound()
     {
-        PickItem();
+        return roundNumber == maxRoundCount - 1;
+    }
+    public void StartSession(int sessionNumber) // called by the game manager
+    {
+        PickItem(sessionNumber);
+
+        itemSoldNotifUI.SetActive(false);
+
         roundNumber = 0;
-        currentPlayer = 0; // TODO: last sessions winner starts.
+        maxOffer = 0;
+        maxOfferOwner = -1;
+        currentPlayer = 0;
         turnsPlayedThisRound = 0;
+        for (int i = 0; i < passed.Length; i++) passed[i] = false; // reset passed states.
         //StartCoroutine(PlayRound());
         PlayTurn(currentPlayer);
+    }
+    public void MadeDecision(int playerIndex, int offerAmount) // players should call this when decision is made.
+    {
+        if (offerAmount != 0)
+        {
+            Debug.Log("Player " + playerIndex + " offered " + offerAmount + " dollars");
+            RegisterOffer(playerIndex, offerAmount);
+        }
+        else
+        {
+            Debug.Log("Player " + playerIndex + " passed.");
+            passed[playerIndex] = true;
+        }
+        NextTurn();
     }
     private void NextRound()
     {
         roundNumber++;
-        if (roundNumber == maxRoundCount) EndSession();
+
+        int passedPlayers = 0;
+        for(int i = 0; i < passed.Length; i++)
+        {
+            if (passed[i]) passedPlayers++;
+        }
+
+        if (roundNumber == maxRoundCount)
+        {
+            EndSession(); 
+        }
+        else if (passedPlayers >= players.Count-1)
+        {
+            EndSession();
+        }
         else
         {
             //StartCoroutine(PlayRound());
+            roundCounter.text = "Round " + roundNumber + "/" + maxRoundCount;
+
             currentPlayer = 0;
             turnsPlayedThisRound = 0;
             PlayTurn(currentPlayer);
         }
     }
-    //private IEnumerator PlayRound()
-    //{
-    //    //    for(int i = 0; i < players.Count; i++)
-    //    //    {
-    //    //        currentPlayer = i;
-    //    //        // show turn, activate UI if players turns.
-    //    //        Debug.Log("Player " + i + "'s turn.");
-
-    //    //        float turnTime;
-    //    //        if (i == 0) //only if player
-    //    //        {
-    //    //            FindObjectOfType<OfferUI>().ShowOfferUI(maxOffer);
-    //    //            turnTime = playerTurnTime;
-    //    //        }
-    //    //        else
-    //    //        {
-    //    //            turnTime = AITurnTime;
-    //    //            FindObjectOfType<OfferUI>().HideOfferUI();
-    //    //        }
-
-    //    //        players[i].GetComponent<Character>().PlayTurn(i);
-    //    //        //RegisterOffer(i, offerAmount);
-    //    //        yield return new WaitForSecondsRealtime(turnTime);
-    //    // refresh UI to show changes.
-    ////}
-    //    //NextRound();
-    //}
     private void PlayTurn(int playerIndex)
     {
         Debug.Log("Player " + playerIndex + "'s turn.");
+
+        if (passed[playerIndex]) 
+        {
+            //this player already passed in a previous turn, cant play this turn.
+            MadeDecision(playerIndex, 0); // pass directly here. can also include a time delay.
+            return;
+        }
+
+        int passedPlayers = 0;
+        for (int i = 0; i < passed.Length; i++)
+        {
+            if (passed[i]) passedPlayers++;
+        }
+        if(passedPlayers == players.Count - 1 && maxOfferOwner == playerIndex) 
+        {
+            // if all the other players are passed,
+            // and if this one is the highest bidder so far,
+            // this one wins immediately 
+            Debug.Log("session ended early.");
+            EndSession();
+            return;
+        }
+
+
         if (playerIndex == 0) //only if human player
         {
-            FindObjectOfType<OfferUI>().ShowOfferUI(maxOffer);
+            float playersBudget = GameManager.Instance.GetCurrentMoney(playerIndex);
+            FindObjectOfType<OfferUI>().ShowOfferUI(maxOffer + offerIncreaseAmount, playersBudget);
         }
         else
         {
@@ -84,18 +133,8 @@ public class AuctionManager : MonoBehaviour
         }
 
         players[playerIndex].GetComponent<Character>().PlayTurn(playerIndex);
-        //RegisterOffer(i, offerAmount);
     }
-    public void MadeDecision(int playerIndex, int offerAmount) // players should call this when decision is made.
-    {
-        if (offerAmount != maxOffer)
-        {
-            Debug.Log("Player " + playerIndex + " offered " + offerAmount + " dollars");
-            RegisterOffer(playerIndex, offerAmount);
-        }
-        else Debug.Log("Player " + playerIndex + " passed.");
-        NextTurn();
-    }
+   
 
     private void NextTurn()
     {
@@ -122,7 +161,7 @@ public class AuctionManager : MonoBehaviour
             Debug.Log("Now player " + playerIndex + " is winning.");
         } 
 
-        if (amount == 0) { Debug.Log("Now player " + playerIndex + " is winning."); } // passes
+        if (amount == 0) { Debug.Log("player " + playerIndex + " has passed."); } // passes
         else
         {
             offers[playerIndex] = amount;
@@ -131,13 +170,29 @@ public class AuctionManager : MonoBehaviour
     private void EndSession()
     {
         // show who won this item.
+        FindObjectOfType<OfferUI>().HideOfferUI();
+        itemSoldNotifUI.SetActive(true);
+        itemSoldText.text = "Player " + maxOfferOwner + " has bought the " + selectedItem.name + " for " + maxOffer + " coins.";
         Debug.Log("Player " + maxOfferOwner + " has won the " + selectedItem.name);
+        GameManager.Instance.DecreaseMoney(maxOfferOwner, maxOffer);
 
+        if (maxOfferOwner == 0)
+        {
+            // update players money display
+            players[0].GetComponent<Character>().UpdateMoneyDisplay();
+        }
+
+        GameManager.Instance.SessionEnded(maxOfferOwner, 0);
         // switch to dialogue scene
     }
-    private void PickItem()
+    private void PickItem(int sessionNumber)
     {
-        selectedItem = items[Random.Range(0, items.Count)];
+        selectedItem = items[sessionNumber];
+        selectedItem.SetActive(true);
+        foreach(var item in items)
+        {
+            if (item != selectedItem) item.SetActive(false);
+        }
         Debug.Log("selling item " + selectedItem.name + " this session.");
     }
 }

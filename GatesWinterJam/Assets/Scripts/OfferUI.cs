@@ -3,22 +3,42 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class OfferUI : MonoBehaviour
 {
+    public Button makeOfferButton;
     public GameObject OfferUIVisual;
     public TextMeshProUGUI offerAmount;
-    public int increaseAmount = 50;
+    public int increaseAmount;
 
     public int roundStartOffer;
     public int currentOffer = 0;
 
-    public void ShowOfferUI(int roundStartOffer)
+
+    private float budget;
+
+    public void Start()
     {
+        increaseAmount = FindObjectOfType<AuctionManager>().offerIncreaseAmount;
+    }
+    public void ShowOfferUI(int roundStartOffer, float playerMoney)
+    {
+        budget = playerMoney;
+        
         OfferUIVisual.SetActive(true);
         this.roundStartOffer = roundStartOffer;
         currentOffer = roundStartOffer;
         offerAmount.text = currentOffer.ToString();
+
+        if (currentOffer > budget)
+        {
+            makeOfferButton.interactable = false;
+        }
+        else
+        {
+            makeOfferButton.interactable = true;
+        }
     }
     public void HideOfferUI()
     {
@@ -28,6 +48,11 @@ public class OfferUI : MonoBehaviour
     {
         currentOffer += increaseAmount;
         offerAmount.text = currentOffer.ToString();
+
+        if (currentOffer > budget)
+        {
+            makeOfferButton.interactable = false;
+        }
     }
     public void DecreaseOfferButton()
     {
@@ -35,6 +60,11 @@ public class OfferUI : MonoBehaviour
         if (currentOffer < roundStartOffer) currentOffer += increaseAmount;
 
         offerAmount.text = currentOffer.ToString();
+
+        if (currentOffer <= budget)
+        {
+            makeOfferButton.interactable = true;
+        }
     }
 
     public void SubmitOfferButton()
@@ -44,6 +74,6 @@ public class OfferUI : MonoBehaviour
 
     public void PassButton()
     {
-        FindObjectOfType<AuctionManager>().players[0].GetComponent<Character>().MadeOffer(roundStartOffer);
+        FindObjectOfType<AuctionManager>().players[0].GetComponent<Character>().MadeOffer(0);
     }
 }

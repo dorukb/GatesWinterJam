@@ -11,7 +11,7 @@ public class MaxOfferUI : MonoBehaviour
 
     public void ShowMaxOffer()
     {
-        maxOffer = AuctionManager.maxOffer;
+        maxOffer = FindObjectOfType<AuctionManager>().maxOffer;
         maxOfferInfo.text = maxOffer.ToString();
     }
     
