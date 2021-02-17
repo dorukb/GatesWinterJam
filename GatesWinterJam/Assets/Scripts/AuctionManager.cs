@@ -10,7 +10,7 @@ public class AuctionManager : MonoBehaviour
     public float AITurnTime = 3f;
     public GameObject selectedItem;
     public int[] offers;
-    public int maxOffer;
+    public static int maxOffer;
     public int maxOfferOwner;
 
     public int maxRoundCount = 3; // item will be sold to highest bidder at the end of round 3. 
@@ -81,6 +81,7 @@ public class AuctionManager : MonoBehaviour
         { 
             maxOffer = amount;
             maxOfferOwner = playerIndex;
+            FindObjectOfType<MaxOfferUI>().ShowMaxOffer();
             Debug.Log("Now player " + playerIndex + " is winning.");
         } 
 
