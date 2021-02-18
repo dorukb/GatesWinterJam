@@ -8,54 +8,31 @@ public class WaitingRoomManager : MonoBehaviour
     private GameObject charScreen;
     [SerializeField]
     private GameObject toAuctionButton;
-    [SerializeField]
-    private GameObject enemyScreen1;
-    [SerializeField]
-    private GameObject enemyScreen2;
-    [SerializeField]
-    private GameObject enemyScreen3;
-    [SerializeField]
-    private GameObject enemyScreen4;
-    [SerializeField]
-    private GameObject enemyScreen5;
-    public void ToEnemyScreen1(string ScreenToChange)
+
+    public List<GameObject> enemyScreens;
+
+    public void ActivateScreen(int charIndex, CharacterData data)
     {
+
         charScreen.SetActive(false);
         toAuctionButton.SetActive(false);
-        enemyScreen1.SetActive(true);
-    }
-    public void ToEnemyScreen2(string ScreenToChange)
-    {
-        charScreen.SetActive(false);
-        toAuctionButton.SetActive(false);
-        enemyScreen2.SetActive(true);
-    }
-    public void ToEnemyScreen3(string ScreenToChange)
-    {
-        charScreen.SetActive(false);
-        toAuctionButton.SetActive(false);
-        enemyScreen3.SetActive(true);
-    }
-    public void ToEnemyScreen4(string ScreenToChange)
-    {
-        charScreen.SetActive(false);
-        toAuctionButton.SetActive(false);
-        enemyScreen4.SetActive(true);
-    }
-    public void ToEnemyScreen5(string ScreenToChange)
-    {
-        charScreen.SetActive(false);
-        toAuctionButton.SetActive(false);
-        enemyScreen5.SetActive(true);
+
+        enemyScreens[charIndex].SetActive(true);
+
+        FindObjectOfType<DialogueManager>().StartTyping();
     }
     public void TurnBackCharScreen(string ScreenToChange)
     {
+
+
+        FindObjectOfType<DialogueManager>().ResetDialogue();
+
         charScreen.SetActive(true);
         toAuctionButton.SetActive(true);
-        enemyScreen1.SetActive(false);
-        enemyScreen2.SetActive(false);
-        enemyScreen3.SetActive(false);
-        enemyScreen4.SetActive(false);
-        enemyScreen5.SetActive(false);
+
+        foreach(var screen in enemyScreens)
+        {
+            screen.SetActive(false);
+        }
     }
 }

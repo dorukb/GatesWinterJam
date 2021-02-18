@@ -48,6 +48,8 @@ public class AuctionManager : MonoBehaviour
 
         roundCounter.text = "Round " + roundNumber + "/" + maxRoundCount;
         for (int i = 0; i < passed.Length; i++) passed[i] = false; // reset passed states.
+
+        
         //StartCoroutine(PlayRound());
         PlayTurn(currentPlayer);
     }
@@ -172,7 +174,9 @@ public class AuctionManager : MonoBehaviour
         itemSoldNotifUI.SetActive(true);
         itemSoldText.text = "Player " + maxOfferOwner + " has bought the " + selectedItem.name + " for " + maxOffer + " coins.";
         Debug.Log("Player " + maxOfferOwner + " has won the " + selectedItem.name);
+
         GameManager.Instance.DecreaseMoney(maxOfferOwner, maxOffer);
+        GameManager.Instance.BoughtItem(maxOfferOwner, selectedItem.name);
 
         if (maxOfferOwner == 0)
         {
