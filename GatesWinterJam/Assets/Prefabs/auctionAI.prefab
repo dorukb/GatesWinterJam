@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3627238350516524244}
   - component: {fileID: 3627238350516524267}
   m_Layer: 0
-  m_Name: ai 1
+  m_Name: auctionAI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,8 +46,7 @@ MonoBehaviour:
   playersMoneyUI: {fileID: 0}
   offerTextUI: {fileID: 0}
   charName: 
-  budget: 50
-  turnDuration: 3
+  turnDuration: 1
   desiredItemBudgetPerct: 0.6
   neutralItemBudgetPerct: 0.2
   desiredItems:

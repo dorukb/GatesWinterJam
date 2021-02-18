@@ -19,14 +19,46 @@ MonoBehaviour:
   charIndex: 3
   dialogues:
   - sessionNumber: 0
-    defaultLines: []
+    defaultLines:
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: 
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: 
     altLines: []
   - sessionNumber: 1
-    defaultLines: []
+    defaultLines:
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: knight
+      text: sovalye text 1
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: knight
+      text: sovalye text 2
     altLines: []
   - sessionNumber: 2
-    defaultLines: []
-    altLines: []
+    defaultLines:
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: Knight
+      text: kutsal kase vampirde degil, text 1
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: Knight
+      text: kutsal kase vampirde degil, text 2
+    altLines:
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: Knight
+      text: kutsal kase vampirde, guvenme bro 1
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: Knight
+      text: kutsal kase vampirde, guvenme bro 2
   - sessionNumber: 3
     defaultLines: []
     altLines: []

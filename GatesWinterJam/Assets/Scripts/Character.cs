@@ -18,7 +18,7 @@ public class Character : MonoBehaviour
     public float neutralItemBudgetPerct = 0.2f;
 
     // desired items
-    public List<Item> desiredItems;
+    public List<ItemData> desiredItems;
     // not interested items
 
     public int playerIndex;
@@ -52,7 +52,7 @@ public class Character : MonoBehaviour
     private void MakeAIDecision()
     {
         int minOffer = auctionManager.maxOffer + auctionManager.offerIncreaseAmount;
-        string currItem = auctionManager.selectedItem.GetComponent<Item>().itemName;
+        string currItemName = auctionManager.GetCurrentItemName();
         float currMoney = GameManager.Instance.GetCurrentMoney(playerIndex); // chars money at the start of this round.
 
         if (minOffer > currMoney)
@@ -62,7 +62,7 @@ public class Character : MonoBehaviour
             auctionManager.MadeDecision(playerIndex, 0);
             Debug.Log("Not enough money to offer.");
         }
-        else if (desiredItems.Find(i => i.itemName == currItem) != null)
+        else if (desiredItems.Find(i => i.itemName == currItemName) != null)
         {
             // try to win this one.
             if (GameManager.Instance.IsLastSession()) 

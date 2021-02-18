@@ -136,13 +136,23 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 7605164752823390281, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
         type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605164752823390281, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605164752823390281, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
+        type: 3}
       propertyPath: m_Color.b
-      value: 0.3537736
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7605164752823390281, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.3537736
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7605164752823390281, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
         type: 3}
@@ -274,10 +284,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: ai3 knight
       objectReference: {fileID: 0}
-    - target: {fileID: 8754299159153632898, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
+    - target: {fileID: 7847371588257116977, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
         type: 3}
-      propertyPath: m_text
-      value: Enemy3
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0ebface8171e5ca49af49abb87e71731,
+        type: 3}
+    - target: {fileID: 9130067467769613643, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -188
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71, type: 3}
@@ -849,13 +865,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ai5 wolf
       objectReference: {fileID: 0}
-    - target: {fileID: 8754299159153632898, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
-        type: 3}
-      propertyPath: m_text
-      value: 'Enemy5
-
-'
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71, type: 3}
 --- !u!1001 &1297581569
@@ -1058,6 +1067,11 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 7605164752823390281, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
         type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605164752823390281, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
+        type: 3}
       propertyPath: m_Color.b
       value: 0.48584908
       objectReference: {fileID: 0}
@@ -1069,6 +1083,11 @@ PrefabInstance:
     - target: {fileID: 7605164752823390281, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
         type: 3}
       propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605164752823390281, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
+        type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7605164752823390282, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
@@ -1195,6 +1214,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ai1 alien
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605164752823390283, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605164752823390287, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71, type: 3}
@@ -1344,12 +1373,6 @@ MonoBehaviour:
   dialogueScreen: {fileID: 1297581573}
   toAuctionButton: {fileID: 1233266555}
   textDisplay: {fileID: 1297581572}
-  sentences:
-  - 'William: Hello, My name is William.'
-  - 'William: I need something from you'
-  - 'William: If you don''t buy this item I will be happy'
-  - 'William: I can trust you on this right?'
-  - 'William: Thanks!!'
   typingSpeed: 0.02
   characters:
   - {fileID: 1894484152}
@@ -1358,6 +1381,7 @@ MonoBehaviour:
   - {fileID: 989786077}
   - {fileID: 1442853876}
   dialogueNextButton: {fileID: 1297581571}
+  lines: []
 --- !u!4 &1578472481
 Transform:
   m_ObjectHideFlags: 0
@@ -1608,13 +1632,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ai4 vampire
       objectReference: {fileID: 0}
-    - target: {fileID: 8754299159153632898, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
-        type: 3}
-      propertyPath: m_text
-      value: 'Enemy4
-
-'
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71, type: 3}
 --- !u!1 &1894484152 stripped
@@ -1854,11 +1871,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ai2 egirl
-      objectReference: {fileID: 0}
-    - target: {fileID: 8754299159153632898, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71,
-        type: 3}
-      propertyPath: m_text
-      value: Enemy2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30a95fdc293babe4b9c3d9d8e3ab7b71, type: 3}

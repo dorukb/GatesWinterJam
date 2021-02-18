@@ -19,13 +19,41 @@ MonoBehaviour:
   charIndex: 2
   dialogues:
   - sessionNumber: 0
-    defaultLines: []
+    defaultLines:
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: bisiler bisiler
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: ikinci bisiler random aaaa
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: texte text etetxetxetxexte
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: son bu soz
     altLines: []
   - sessionNumber: 1
     defaultLines: []
     altLines: []
   - sessionNumber: 2
-    defaultLines: []
+    defaultLines:
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: Egirl
+      text: yine curuk et yaa 1
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: Egirl
+      text: yine curuk et yaa 2
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: Egirl
+      text: yine curuk et yaa 3
     altLines: []
   - sessionNumber: 3
     defaultLines: []

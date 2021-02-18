@@ -860,8 +860,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentSession: 1
+  currentDialogueSession: 0
   socialScenePeriod: 3
-  sessionCount: 3
+  sessionCount: 15
   playersCurrentMoney:
   - 1200
   - 700

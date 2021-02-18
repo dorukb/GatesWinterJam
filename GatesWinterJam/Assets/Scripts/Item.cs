@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public Sprite sprite;
-    public string itemName;
-    public SpriteRenderer visual;
-
-    private void Start()
+    public SpriteRenderer display;
+    ItemData data;
+    public void SetupItem(ItemData data)
     {
-        visual.sprite = sprite;
+        this.data = data;
+        display.sprite = data.hiddenSprite;
     }
 }

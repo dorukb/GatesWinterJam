@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4286742620775935504}
-  - component: {fileID: 4286742620775935511}
+  - component: {fileID: 9012199682923389501}
   m_Layer: 0
-  m_Name: item 0
+  m_Name: itemPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4286742620775935511
+--- !u!114 &9012199682923389501
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,12 +41,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4286742620775935510}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f4f97832f32fda49a9b3faf5b538fc8, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b42ff63c60e1db429e319ab6ca14fd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  itemName: default
-  visual: {fileID: 4286742621786503215}
+  display: {fileID: 4286742621786503215}
 --- !u!1 &4286742621786503213
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +114,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 0.08018869, b: 0.08018869, a: 1}
   m_FlipX: 0

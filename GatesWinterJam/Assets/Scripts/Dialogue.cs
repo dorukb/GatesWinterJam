@@ -13,7 +13,11 @@ public class Dialogue
 [System.Serializable]
 public class Line
 {
+    public bool isDecisionLine;
     public Sprite speakerIcon;
     public string speakerName;
+
+
+    [TextArea(3, 10)]
     public string text;
 }
