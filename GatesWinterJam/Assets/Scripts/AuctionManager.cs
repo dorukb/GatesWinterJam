@@ -34,21 +34,19 @@ public class AuctionManager : MonoBehaviour
         for (int i = 0; i < passed.Length; i++) passed[i] = false;
         //StartSession(0);
     }
-    public bool isLastRound()
-    {
-        return roundNumber == maxRoundCount - 1;
-    }
     public void StartSession(int sessionNumber) // called by the game manager
     {
         PickItem(sessionNumber);
 
         itemSoldNotifUI.SetActive(false);
 
-        roundNumber = 0;
+        roundNumber = 1;
         maxOffer = 0;
         maxOfferOwner = -1;
         currentPlayer = 0;
         turnsPlayedThisRound = 0;
+
+        roundCounter.text = "Round " + roundNumber + "/" + maxRoundCount;
         for (int i = 0; i < passed.Length; i++) passed[i] = false; // reset passed states.
         //StartCoroutine(PlayRound());
         PlayTurn(currentPlayer);
@@ -77,7 +75,7 @@ public class AuctionManager : MonoBehaviour
             if (passed[i]) passedPlayers++;
         }
 
-        if (roundNumber == maxRoundCount)
+        if (roundNumber > maxRoundCount)
         {
             EndSession(); 
         }

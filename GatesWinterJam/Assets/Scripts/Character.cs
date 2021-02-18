@@ -65,9 +65,11 @@ public class Character : MonoBehaviour
         else if (desiredItems.Find(i => i.itemName == currItem) != null)
         {
             // try to win this one.
-            if (auctionManager.isLastRound()) 
+            if (GameManager.Instance.IsLastSession()) 
             {
                 //go all in, each round increase by 2 times the usual amount.
+                Debug.Log("last session, go all in. budget: " + currMoney);
+
                 int idealOffer = minOffer + auctionManager.offerIncreaseAmount;
                 if (idealOffer <= currMoney)
                 {

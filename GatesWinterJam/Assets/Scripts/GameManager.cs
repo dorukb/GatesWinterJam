@@ -83,4 +83,9 @@ public class GameManager : MonoBehaviour
     {
         return playersCurrentMoney[playerIndex];
     }
+
+    public bool IsLastSession()
+    {
+        return currentSession == sessionCount-1;
+    }
 }
