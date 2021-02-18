@@ -7,6 +7,8 @@ public class WaitingRoomManager : MonoBehaviour
     [SerializeField]
     private GameObject charScreen;
     [SerializeField]
+    private GameObject toAuctionButton;
+    [SerializeField]
     private GameObject enemyScreen1;
     [SerializeField]
     private GameObject enemyScreen2;
@@ -19,31 +21,37 @@ public class WaitingRoomManager : MonoBehaviour
     public void ToEnemyScreen1(string ScreenToChange)
     {
         charScreen.SetActive(false);
+        toAuctionButton.SetActive(false);
         enemyScreen1.SetActive(true);
     }
     public void ToEnemyScreen2(string ScreenToChange)
     {
         charScreen.SetActive(false);
+        toAuctionButton.SetActive(false);
         enemyScreen2.SetActive(true);
     }
     public void ToEnemyScreen3(string ScreenToChange)
     {
         charScreen.SetActive(false);
+        toAuctionButton.SetActive(false);
         enemyScreen3.SetActive(true);
     }
     public void ToEnemyScreen4(string ScreenToChange)
     {
         charScreen.SetActive(false);
+        toAuctionButton.SetActive(false);
         enemyScreen4.SetActive(true);
     }
     public void ToEnemyScreen5(string ScreenToChange)
     {
         charScreen.SetActive(false);
+        toAuctionButton.SetActive(false);
         enemyScreen5.SetActive(true);
     }
     public void TurnBackCharScreen(string ScreenToChange)
     {
         charScreen.SetActive(true);
+        toAuctionButton.SetActive(true);
         enemyScreen1.SetActive(false);
         enemyScreen2.SetActive(false);
         enemyScreen3.SetActive(false);
