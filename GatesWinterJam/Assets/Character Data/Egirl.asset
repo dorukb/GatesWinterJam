@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: Nerd gal
   bioText: i dunno whati want
-  mainSprite: {fileID: 0}
+  mainSprite: {fileID: 21300000, guid: 9a0192a109c795043aeb1cf8570e24a6, type: 3}
   icon: {fileID: 0}
   charIndex: 2
   dialogues:

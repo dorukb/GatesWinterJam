@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueCharacter : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class DialogueCharacter : MonoBehaviour
     public TextMeshProUGUI nameDisplay;
     public CharacterData data;
 
+ 
     bool showDialogue = true;
 
     private void Start()
@@ -24,6 +26,8 @@ public class DialogueCharacter : MonoBehaviour
     {
         dialogueIndicator.SetActive(show);
         showDialogue = show;
+
+        Debug.Log("Show: " + showDialogue + " for " + data.name);
     }
     public void DialogueRequested()
     {
@@ -35,6 +39,11 @@ public class DialogueCharacter : MonoBehaviour
         // egirl: 4
         // vampire: 5
         // as defined by the AuctionManager Players array in auctionScene and corresponding inventory in GameManager.
+
+        // show "already talked" state on the indicator.
+        Color color = dialogueIndicator.GetComponent<TextMeshProUGUI>().color;
+        color.a = 0.35f;
+        dialogueIndicator.GetComponent<TextMeshProUGUI>().color = color;
 
         int currentSession = GameManager.Instance.currentDialogueSession;
         bool useAlternativeDialogue = false;

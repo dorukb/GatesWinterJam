@@ -80,21 +80,22 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void SessionEnded(int winnerIndex, int soldItemIndex)
+    public void SessionEnded()
     {
         if (currentSession % socialScenePeriod == 0)
         {
             currentSession++;
             // time for dialogue scene.
-            Invoke("SwitchToDialogueScene", 5f);
+            FindObjectOfType<TransitionManager>().LoadDialogueScene();
+            //Invoke("SwitchToDialogueScene", 2f);
         }
         else
         {
             currentSession++;
-            Invoke("ReloadAuctionScene", 5f);
+            FindObjectOfType<TransitionManager>().LoadAuctionScene();
+            //Invoke("ReloadAuctionScene", 2f);
         }
     }
-
     private void SwitchToDialogueScene()
     {
         FindObjectOfType<TransitionManager>().LoadDialogueScene();

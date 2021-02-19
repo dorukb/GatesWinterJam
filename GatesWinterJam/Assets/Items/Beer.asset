@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Beer
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
+  revealedSprite: {fileID: 21300000, guid: 83b168015f479c549b5499a00abc24cc, type: 3}
   itemDisplayName: Bira
   type: 2

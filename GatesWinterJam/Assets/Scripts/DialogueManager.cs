@@ -75,6 +75,7 @@ public class DialogueManager : MonoBehaviour
         }
         else
         {
+            Debug.Log("disable next button for: " + data.name);
             dialogueNextButton.SetActive(false);
         }
 

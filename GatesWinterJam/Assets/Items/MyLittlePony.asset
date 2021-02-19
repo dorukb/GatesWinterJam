@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: MyLittlePony
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
+  revealedSprite: {fileID: 21300000, guid: 6186655ed4b0cf046ac8ae6794f81f39, type: 3}
   itemDisplayName: My Little Pony Special Edition Pinky Pie Action Figure
   type: 0

@@ -52,7 +52,6 @@ public class AuctionManager : MonoBehaviour
         for (int i = 0; i < passed.Length; i++) passed[i] = false; // reset passed states.
 
         
-        //StartCoroutine(PlayRound());
         PlayTurn(currentPlayer);
     }
     public void MadeDecision(int playerIndex, int offerAmount) // players should call this when decision is made.
@@ -186,7 +185,7 @@ public class AuctionManager : MonoBehaviour
             players[0].GetComponent<Character>().UpdateMoneyDisplay();
         }
 
-        GameManager.Instance.SessionEnded(maxOfferOwner, 0);
+        //GameManager.Instance.SessionEnded(maxOfferOwner, 0); notification UI will call this instead.
         // switch to dialogue scene
     }
 
@@ -206,6 +205,8 @@ public class AuctionManager : MonoBehaviour
 
         currItem = Instantiate(itemPrefab, itemAnchor.transform);
         itemPrefab.GetComponent<Item>().SetupItem(selectedItemData);
+
+        // here do anim & sound fx to introduce the item.
 
         Debug.Log("selling item " + selectedItemData.itemDisplayName + " this session.");
     }
