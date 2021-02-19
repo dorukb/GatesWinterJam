@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1e2cedf66e08794795040849d26d629, type: 3}
   m_Name: Alien
   m_EditorClassIdentifier: 
-  charName: alien
+  displayName: Uzaayli
   bioText: zlask biashdwks asdwds?!
   mainSprite: {fileID: 0}
   icon: {fileID: 0}

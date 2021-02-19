@@ -38,7 +38,7 @@ public class DialogueManager : MonoBehaviour
         for(int i = 0; i < characters.Count; i++)
         {
             var dCharScript = characters[i].GetComponent<DialogueCharacter>();
-            string chName = dCharScript.data.charName;
+            string chName = dCharScript.data.name;
             if (speakers.speakerNames.Contains(chName))
             {
                 // activate highlight/indicator UI.

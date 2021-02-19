@@ -883,32 +883,33 @@ MonoBehaviour:
     ownedItems: []
   - playerIndex: 5
     ownedItems: []
+  playerScore: 0
   sessionSpeakers:
   - sessionNumber: 0
     speakerNames:
-    - medusa
-    - egirl
-    - vampire
-    - alien
+    - Medusa
+    - Egirl
+    - Vampire
+    - Alien
   - sessionNumber: 1
     speakerNames:
-    - wolf
-    - knight
+    - Wolf
+    - Knight
   - sessionNumber: 2
     speakerNames:
-    - vampire
-    - knight
-    - egirl
+    - Vampire
+    - Knight
+    - Egirl
   - sessionNumber: 3
     speakerNames:
-    - wolf
-    - alien
-    - vampire
+    - Wolf
+    - Alien
+    - Vampire
   - sessionNumber: 4
     speakerNames:
-    - vampire
-    - egirl
-    - knight
+    - Vampire
+    - Egirl
+    - Knight
 --- !u!4 &1546823151
 Transform:
   m_ObjectHideFlags: 0

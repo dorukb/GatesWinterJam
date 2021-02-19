@@ -5,8 +5,12 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "CharData")]
 public class CharacterData : ScriptableObject
 {
-    public string charName;
 
+    // id is the name of the scriptable object asset itself.
+
+
+    // used only for display purposes, not identification.
+    public string displayName;
 
     [TextArea(3, 10)]
     public string bioText;

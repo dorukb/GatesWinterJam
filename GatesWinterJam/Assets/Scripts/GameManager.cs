@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
         else if (scene.buildIndex == 1) // auction scene
         {
             //Debug.Log("Session scene");
-            if (currentSession >= sessionCount)
+            if (currentSession > sessionCount)
             {
                 Debug.Log("All sessions ended. show game result.");
                 FindObjectOfType<TransitionManager>().LoadEndScene();
@@ -120,7 +120,7 @@ public class GameManager : MonoBehaviour
     }
     public bool IsLastSession()
     {
-        return currentSession == sessionCount - 1;
+        return currentSession == sessionCount;
     }
 
     public void BoughtItem(int playerIndex, ItemData itemData)
@@ -135,7 +135,7 @@ public class GameManager : MonoBehaviour
                     scored = 150;
                     break;
                 case ItemType.Regular:
-                    scored = 100;
+                    scored = 75;
                     break;
                 case ItemType.Worthless:
                     scored = 30;
@@ -145,7 +145,7 @@ public class GameManager : MonoBehaviour
             FindObjectOfType<ScoreDisplayUI>().UpdateScore(playerScore);
 
         }
-        playerItems[playerIndex].ownedItems.Add(itemData.itemName);
+        playerItems[playerIndex].ownedItems.Add(itemData.name);
     }
     public bool HasItem(int playerIndex, string itemId)
     {

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1e2cedf66e08794795040849d26d629, type: 3}
   m_Name: Knight
   m_EditorClassIdentifier: 
-  charName: knight
+  displayName: sovaaalye
   bioText: i want pretty princess' to save
   mainSprite: {fileID: 0}
   icon: {fileID: 0}

@@ -16,7 +16,7 @@ public class DialogueScreenUI : MonoBehaviour
     {
         currentData = data;
 
-        speakerName.text = data.charName;
+        speakerName.text = data.displayName;
         bioText.text = data.bioText;
         speakerIcon.sprite = data.icon;
 

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
   revealedSprite: {fileID: 0}
-  itemName: Meat
+  itemDisplayName: Dana pirzola
   type: 2

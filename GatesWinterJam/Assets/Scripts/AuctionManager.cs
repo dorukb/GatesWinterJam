@@ -15,8 +15,6 @@ public class AuctionManager : MonoBehaviour
     public TextMeshProUGUI itemSoldText;
     public TextMeshProUGUI roundCounter;
 
-    public float playerTurnTime = 30f;
-    public float AITurnTime = 3f;
     public int offerIncreaseAmount = 50;
     public int maxRoundCount = 5; // item will be sold to highest bidder at the end of round 5. 
     // if only 1 player bids in any of the rounds(meaning no competition), then auction ends that round.
@@ -176,8 +174,8 @@ public class AuctionManager : MonoBehaviour
         // show who won this item.
         FindObjectOfType<OfferUI>().HideOfferUI();
         itemSoldNotifUI.SetActive(true);
-        itemSoldText.text = "Player " + maxOfferOwner + " has bought the " + selectedItemData.itemName + " for " + maxOffer + " coins.";
-        Debug.Log("Player " + maxOfferOwner + " has won the " + selectedItemData.itemName);
+        itemSoldText.text = "Player " + maxOfferOwner + " has bought the " + selectedItemData.itemDisplayName + " for " + maxOffer + " coins.";
+        Debug.Log("Player " + maxOfferOwner + " has won the " + selectedItemData.itemDisplayName);
 
         GameManager.Instance.DecreaseMoney(maxOfferOwner, maxOffer);
         GameManager.Instance.BoughtItem(maxOfferOwner, selectedItemData);
@@ -192,9 +190,13 @@ public class AuctionManager : MonoBehaviour
         // switch to dialogue scene
     }
 
-    public string GetCurrentItemName()
+    public string GetCurrentItemDisplayName()
     {
-        return selectedItemData.itemName;
+        return selectedItemData.itemDisplayName;
+    }
+    public string GetCurrentItemID()
+    {
+        return selectedItemData.name;
     }
     private void PickItem(int sessionNumber)
     {
@@ -205,6 +207,6 @@ public class AuctionManager : MonoBehaviour
         currItem = Instantiate(itemPrefab, itemAnchor.transform);
         itemPrefab.GetComponent<Item>().SetupItem(selectedItemData);
 
-        Debug.Log("selling item " + selectedItemData.itemName + " this session.");
+        Debug.Log("selling item " + selectedItemData.itemDisplayName + " this session.");
     }
 }

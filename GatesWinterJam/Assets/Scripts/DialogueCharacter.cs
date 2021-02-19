@@ -13,7 +13,7 @@ public class DialogueCharacter : MonoBehaviour
 
     private void Start()
     {
-        nameDisplay.text = data.charName;
+        nameDisplay.text = data.displayName;
     }
     public void SetupDialogue()
     {
