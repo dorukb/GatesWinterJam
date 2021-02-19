@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: GoldenToiletPaper
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
+  revealedSprite: {fileID: 21300000, guid: 90d678cd1e19ab348b29a6390178e40c, type: 3}
   itemDisplayName: Altin Tuvalet Kagidi
+  iyelikEki: "n\u0131"
   type: 1

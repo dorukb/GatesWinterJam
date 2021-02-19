@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Glasses
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
+  revealedSprite: {fileID: 21300000, guid: 7b124b52fd9a85845936e84b958df7ff, type: 3}
   itemDisplayName: Weeb Gozlugu
+  iyelikEki: "n\xFC"
   type: 0

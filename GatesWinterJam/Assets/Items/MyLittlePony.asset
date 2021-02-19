@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: MyLittlePony
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 21300000, guid: 6186655ed4b0cf046ac8ae6794f81f39, type: 3}
-  itemDisplayName: My Little Pony Special Edition Pinky Pie Action Figure
+  revealedSprite: {fileID: 21300000, guid: a0fdb1d5893ab9c489e7396e90185b80, type: 3}
+  itemDisplayName: "My Little Pony Special, Pinky Pie Action Figure, Vomit Action,
+    Color Changing, Cultic Summers with Friends Edition, voice interactions. such
+    as \"I hate my life\" \"Blood for the blood god, skulls for the skull throne.\"
+    \"Hail SATAN\" Batteries Included or not inculeded.. * Yaln\u0131z b\u0131rak\u0131lmamas\u0131
+    \xF6nerilir, \u015Feytan \xE7a\u011F\u0131r\u0131l\u0131m\u0131na sebebiyet verebilir "
+  iyelikEki: "\u0131"
   type: 0

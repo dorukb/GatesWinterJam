@@ -13,6 +13,8 @@ public class ItemData: ScriptableObject
 
     // used only for display. subject to change.
     public string itemDisplayName;
+    public string iyelikEki;
+
     public ItemType type;
 }
 

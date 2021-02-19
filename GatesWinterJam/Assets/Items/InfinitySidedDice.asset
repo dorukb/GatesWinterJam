@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: InfinitySidedDice
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
+  revealedSprite: {fileID: 21300000, guid: b52a5178aad883d4ebb124d9b65e9a04, type: 3}
   itemDisplayName: Sonsuz Yuzlu Zar
+  iyelikEki: "\u0131"
   type: 0

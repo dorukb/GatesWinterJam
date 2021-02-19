@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SuperMushroomPillow
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
+  revealedSprite: {fileID: 21300000, guid: ed5c083501cf0534aaae67a923879f58, type: 3}
   itemDisplayName: Super Mushroom Yastigi
+  iyelikEki: "n\u0131"
   type: 2

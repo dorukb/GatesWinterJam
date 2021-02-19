@@ -15,4 +15,5 @@ MonoBehaviour:
   hiddenSprite: {fileID: 0}
   revealedSprite: {fileID: 0}
   itemDisplayName: Luletasi pipo
+  iyelikEki: yu
   type: 1

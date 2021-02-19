@@ -6,7 +6,7 @@ using UnityEngine;
 public class AuctionManager : MonoBehaviour
 {
     public GameObject itemAnchor;
-    public GameObject itemPrefab;
+    public GameObject itemDisplay;
 
     public List<ItemData> items;
 
@@ -170,11 +170,14 @@ public class AuctionManager : MonoBehaviour
     }
     private void EndSession()
     {
+        itemDisplay.SetActive(false);
+
         // show who won this item.
         FindObjectOfType<OfferUI>().HideOfferUI();
         itemSoldNotifUI.SetActive(true);
 
-        itemSoldText.text = players[maxOfferOwner].GetComponent<Character>().charData.displayName + " has bought the " + selectedItemData.itemDisplayName + " for " + maxOffer + " coins.";
+        string optionalSuffix = maxOfferOwner == 0 ? "n" : "";
+        itemSoldText.text = players[maxOfferOwner].GetComponent<Character>().charData.displayName +" "+ selectedItemData.itemDisplayName + "'" +selectedItemData.iyelikEki + " kazandı" + optionalSuffix;
         Debug.Log("Player " + maxOfferOwner + " has won the " + selectedItemData.itemDisplayName);
 
         GameManager.Instance.DecreaseMoney(maxOfferOwner, maxOffer);
@@ -201,14 +204,8 @@ public class AuctionManager : MonoBehaviour
     private void PickItem(int sessionNumber)
     {
         selectedItemData = items[sessionNumber-1];
-
-        if (currItem != null) Destroy(currItem);
-
-        currItem = Instantiate(itemPrefab, itemAnchor.transform);
-        itemPrefab.GetComponent<Item>().SetupItem(selectedItemData);
-
-        // here do anim & sound fx to introduce the item.
-
+        FindObjectOfType<ItemDisplay>().ShowItemWithID(selectedItemData.name);
+  
         Debug.Log("selling item " + selectedItemData.itemDisplayName + " this session.");
     }
 }

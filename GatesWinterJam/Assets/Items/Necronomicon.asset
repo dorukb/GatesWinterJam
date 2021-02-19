@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Necronomicon
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
-  itemDisplayName: Original copy of The Lesser Key of Solomon / Necronomicon
+  revealedSprite: {fileID: 21300000, guid: 6db9d2a73318f0646b62915aa1dfec2c, type: 3}
+  itemDisplayName: Necronomicon
+  iyelikEki: u
   type: 0

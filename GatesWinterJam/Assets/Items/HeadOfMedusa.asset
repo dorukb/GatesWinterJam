@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: HeadOfMedusa
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
-  itemDisplayName: Medusa'nin kafasi
+  revealedSprite: {fileID: 21300000, guid: b1c14cebe4a24eb43b15108f0a953015, type: 3}
+  itemDisplayName: "Medusa'n\u0131n Ba\u015F\u0131"
+  iyelikEki: "n\u0131"
   type: 0

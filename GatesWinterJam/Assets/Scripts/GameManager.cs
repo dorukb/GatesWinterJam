@@ -145,7 +145,7 @@ public class GameManager : MonoBehaviour
                     break;
             }
             playerScore += scored;
-            FindObjectOfType<ScoreDisplayUI>().UpdateScore(playerScore);
+            //FindObjectOfType<ScoreDisplayUI>().UpdateScore(playerScore);
 
         }
         playerItems[playerIndex].ownedItems.Add(itemData.name);

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: FakeVoodo
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
-  itemDisplayName: 'Vodoo '
+  revealedSprite: {fileID: 21300000, guid: cc6d24e8c8eeedb439ef9478292369c0, type: 3}
+  itemDisplayName: "Sahte Voodoo oyunca\u011F\u0131"
+  iyelikEki: "n\u0131"
   type: 2
