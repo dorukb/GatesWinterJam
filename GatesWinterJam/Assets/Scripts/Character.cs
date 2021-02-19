@@ -133,7 +133,7 @@ public class Character : MonoBehaviour
     {
         if(amount == 0)
         {
-            offerTextUI.text = "Passed.";
+            offerTextUI.text = "Pas";
         }
         else
         {

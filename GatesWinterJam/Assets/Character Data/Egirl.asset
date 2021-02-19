@@ -15,7 +15,7 @@ MonoBehaviour:
   displayName: Jen
   bioText: i dunno whati want
   mainSprite: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
   charIndex: 2
   dialogues:
   - sessionNumber: 0

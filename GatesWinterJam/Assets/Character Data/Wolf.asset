@@ -15,7 +15,7 @@ MonoBehaviour:
   displayName: Max
   bioText: im a wolf raargh
   mainSprite: {fileID: 21300000, guid: 7d6b44d68dd0e1a478de465274ee9b01, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: e71ee05fd7df18e4a80510f0dd1b7307, type: 3}
   charIndex: 5
   dialogues:
   - sessionNumber: 0

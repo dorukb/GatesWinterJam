@@ -31,6 +31,8 @@ public class DialogueCharacter : MonoBehaviour
     }
     public void DialogueRequested()
     {
+
+        if (!showDialogue) return;
         // character indices:
         // human player: 0
         // wolf: 1

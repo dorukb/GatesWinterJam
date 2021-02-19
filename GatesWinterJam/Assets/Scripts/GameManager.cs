@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 
     public int currentSession = 1;
     public int currentDialogueSession = 0;
+    public bool earlyTermination = false;
 
     public int socialScenePeriod = 3; // i.e, one after every session. use 2 for one after every 2 sessions and so on.
     public int sessionCount = 15;
@@ -89,24 +90,12 @@ public class GameManager : MonoBehaviour
             currentSession++;
             // time for dialogue scene.
             FindObjectOfType<TransitionManager>().LoadDialogueScene();
-            //Invoke("SwitchToDialogueScene", 2f);
         }
         else
         {
             currentSession++;
             FindObjectOfType<TransitionManager>().LoadAuctionScene();
-            //Invoke("ReloadAuctionScene", 2f);
         }
-    }
-    private void SwitchToDialogueScene()
-    {
-        FindObjectOfType<TransitionManager>().LoadDialogueScene();
-
-    }
-    private void ReloadAuctionScene()
-    {
-
-        FindObjectOfType<TransitionManager>().LoadAuctionScene();
     }
 
     public void DecreaseMoney(int playerIndex, float amount)
@@ -145,7 +134,6 @@ public class GameManager : MonoBehaviour
                     break;
             }
             playerScore += scored;
-            //FindObjectOfType<ScoreDisplayUI>().UpdateScore(playerScore);
 
         }
         playerItems[playerIndex].ownedItems.Add(itemData.name);
@@ -160,6 +148,10 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
+    public bool IsFirstDialogueSession()
+    {
+        return currentDialogueSession == 1;
+    }
     public CandidateSpeakers GetSessionSpeakers()
     {
         return sessionSpeakers[currentDialogueSession-1];

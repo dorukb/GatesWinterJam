@@ -13,7 +13,8 @@ public class Dialogue
 [System.Serializable]
 public class Line
 {
-    public bool isDecisionLine;
+    public bool hasSoundEffect;
+    public AudioClip soundEffect;
     public Sprite speakerIcon;
     public string speakerName;
 

@@ -15,7 +15,7 @@ MonoBehaviour:
   displayName: Thomas
   bioText: i want pretty princess' to save
   mainSprite: {fileID: 21300000, guid: 0ebface8171e5ca49af49abb87e71731, type: 3}
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: dafbd35e6e24b774da7d8305bbe42833, type: 3}
   charIndex: 3
   dialogues:
   - sessionNumber: 0
