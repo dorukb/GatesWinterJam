@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: Silas
   bioText: i want blood
-  mainSprite: {fileID: 0}
+  mainSprite: {fileID: 21300000, guid: ccbfa201455bfca4381be06d661af386, type: 3}
   icon: {fileID: 0}
   charIndex: 4
   dialogues:
@@ -41,27 +41,138 @@ MonoBehaviour:
     - isDecisionLine: 0
       speakerIcon: {fileID: 0}
       speakerName: Vampir
-      text: kutsal kase sovalyede degilse bu text
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: 
-      text: kutsal kase sovalyede degilse bu text 2
+      text: "Anlat\u0131c\u0131: Yapacak bir \u015Feyler ararken, g\xF6z\xFCn koridorun
+        yan\u0131ndaki masaya oturmu\u015F Thomas ve Silas'\u0131n, satran\xE7 tahtas\u0131n\u0131n
+        ba\u015F\u0131nda oyunla alakal\u0131 konu\u015Ftuklar\u0131n duyuyorsun.
+        Yanlar\u0131na gitmeyi akl\u0131ndan ge\xE7irsen de satran\xE7 hakk\u0131nda
+        konu\u015Fman\u0131n daha s\u0131k\u0131c\u0131 olabilece\u011Fini d\xFC\u015F\xFCnd\xFC\u011F\xFCnden
+        vaz ge\xE7iyorsun."
     altLines:
     - isDecisionLine: 0
       speakerIcon: {fileID: 0}
       speakerName: vampir
-      text: kutsal kase sovalyede ise, bu text
+      text: "Anlat\u0131c\u0131: *Pencerenin kenar\u0131ndaki masaya oturmu\u015F,
+        bulundu\u011Fun gezegenin ne kadar farkl\u0131 oldu\u011Funu d\xFC\u015F\xFCn\xFCyorsun.
+        Ait oldu\u011Fun toplumunun senden bu kadar uzakta olmas\u0131 durumu kafan\u0131
+        dolduruyor.\""
     - isDecisionLine: 0
       speakerIcon: {fileID: 0}
       speakerName: vampir
-      text: kutsal kase sovalyede ise, bu text 2
+      text: "Anlat\u0131c\u0131: Sen d\xFC\u015F\xFCncelerin i\xE7inde bo\u011Fulurken,
+        Silas'\u0131n sesi, seni onlardan uzakla\u015Ft\u0131r\u0131yor."
     - isDecisionLine: 0
       speakerIcon: {fileID: 0}
       speakerName: vampir
-      text: kutsal kase sovalyede ise, bu text 3
+      text: 'Silas : ... bilir misiniz ?
+
+'
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: 'Sen: Pardon, tekrar edebilir misin ?'
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Silas: E\u011Fer vaktiniz varsa sizinle bir konuyu konu\u015Fmak istiyordum,
+        acaba benimle gelebilir misiniz ?"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Sen: Tabi. \n"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Anlat\u0131c\u0131: Bir m\xFCddet y\xFCr\xFCd\xFCkten sonra, arkan\u0131zdan
+        birinin sizi takip etti\u011Fi hissine kap\u0131ld\u0131n.\n"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Anlat\u0131c\u0131: * Silas'\u0131n tuzak kurmu\u015F olabilece\u011Fi
+        korkusu t\xFCm v\xFCcudunu ele ge\xE7irse de bu a\u015Famadan sonra pek bir
+        \u015Fey yapamayaca\u011F\u0131n i\xE7in takip etmeye ettin. *\n"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Anlat\u0131c\u0131:Silas ile k\xFC\xE7\xFCk bir odaya geldiniz.\n"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Silas: Size bir anla\u015Fma sunmak istiyorum. Arzulad\u0131\u011F\u0131m
+        bir e\u015Fya var, lakin fiyat\u0131n a\u015F\u0131r\u0131 y\xFCkselmesi
+        durumunda onu\u0131 ba\u015Fkas\u0131 elde edebilir. "
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Silas: Sizden istedi\u011Fim tek \u015Fey et kokan \xFCr\xFCne teklif
+        vermemeniz. Bu sayede di\u011Ferleri de teklif verirken daha temkinli davranacakt\u0131r. "
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Anlat\u0131c\u0131: Silas her ne kadar seninle konu\u015Fuyor olsa da
+        g\xF6zleri seana de\u011Fil kap\u0131ya bak\u0131yordu. Koridorda yere \xE7arpan
+        demirin sesi duyulduktan sonra Silas'\u0131n y\xFCz\xFCn\xFC sinsi bir g\xFCl\xFCmseme
+        kaplad\u0131."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Silas: Biraz \xF6nceki laflar\u0131ma l\xFCtfen ald\u0131rmay\u0131n,
+        onlar\u0131n hepsi sadece yaland\u0131. Thomas'\u0131n beni takip etti\u011Fini
+        biliyordum, onu cayd\u0131racak bir \u015Feye ihtiyac\u0131m vard\u0131.\n"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: 'Sen: Thomas neden seni takip ediyordu ki ?
+
+'
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Silas: K\xFC\xE7\xFCk bir anla\u015Fmam\u0131z vard\u0131, ancak kendisi
+        buna uymamay\u0131 tercih etti. Hala benden faydalanabildi\u011Fi kadar faydalanmaya
+        \xE7al\u0131\u015F\u0131yor.\n"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Silas: Te\u015Fekk\xFCr ederim istemeden de yapt\u0131\u011F\u0131n\u0131z
+        yard\u0131m i\xE7in. \u0130yi g\xFCnler.\n"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: vampir
+      text: "Anlat\u0131c\u0131: Silas sen daha tepki veremeden, yarasaya bi\xE7imine
+        b\xFCr\xFCn\xFCp, uzakla\u015Ft\u0131.\n"
   - sessionNumber: 3
     defaultLines: []
     altLines: []
   - sessionNumber: 4
-    defaultLines: []
-    altLines: []
+    defaultLines:
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Anlat\u0131c\u0131: Son oturum i\xE7in beklerken cebine bir not sakland\u0131\u011F\u0131n\u0131
+        fark edersin."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Silas: \u0130yi g\xFCnler. \xD6ncelikle bu \u015Fekilde ileti\u015Fim
+        kurdu\u011Fum i\xE7in \xF6z\xFCr dilerim, lakin b\xF6ylesinin daha g\xFCvenli
+        olaca\u011F\u0131n\u0131 d\xFC\u015F\xFCnd\xFCm."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Silas: Sat\u0131lacak \xFCr\xFCnlerle ilgili bir duyum ald\u0131m ve
+        de sizin benden daha \xE7ok ihtiyac\u0131n\u0131z olabilece\u011Fini sezdim.
+        Cin Lambas\u0131 sahte ve de\u011Fersiz bir e\u015Fyad\u0131r. L\xFCtfen,
+        almamaya \xF6zen g\xF6sterin."
+    altLines:
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Anlat\u0131c\u0131: Son oturum i\xE7in beklerken cebine bir not sakland\u0131\u011F\u0131n\u0131
+        fark edersin."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Vampir: Size yeterince te\u015Fekk\xFCr edemedi\u011Fimi hissettim bu
+        y\xFCzden sizi ald\u0131\u011F\u0131m bir duyumdan haberdar etmek istedim.
+        E\u011Fer ald\u0131\u011F\u0131m duyum do\u011Fru ise cin lambas\u0131 ger\xE7ektir.
+        Bu y\xFCzden onu al\u0131rken bir edi\u015Fe hissetmenize mahal yoktur."

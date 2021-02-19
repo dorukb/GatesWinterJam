@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: Jen
   bioText: i dunno whati want
-  mainSprite: {fileID: 21300000, guid: 9a0192a109c795043aeb1cf8570e24a6, type: 3}
+  mainSprite: {fileID: -5210103758953873587, guid: 9a0192a109c795043aeb1cf8570e24a6,
+    type: 3}
   icon: {fileID: 0}
   charIndex: 2
   dialogues:
@@ -23,37 +24,135 @@ MonoBehaviour:
     - isDecisionLine: 0
       speakerIcon: {fileID: 0}
       speakerName: 
-      text: bisiler bisiler
+      text: "Anlat\u0131c\u0131: *Etraf\u0131na bak\u0131nd\u0131\u011F\u0131n zaman
+        Jen'i fark ediyorsun. O masan\u0131n ucuna oturmu\u015F, telefonuna bak\u0131yor.*"
     - isDecisionLine: 0
       speakerIcon: {fileID: 0}
       speakerName: 
-      text: ikinci bisiler random aaaa
+      text: "Anlat\u0131c\u0131: *Ona do\u011Fru y\xFCr\xFCyorsun.*"
     - isDecisionLine: 0
       speakerIcon: {fileID: 0}
       speakerName: 
-      text: texte text etetxetxetxexte
+      text: 'Sen: Merhaba.'
     - isDecisionLine: 0
       speakerIcon: {fileID: 0}
       speakerName: 
-      text: son bu soz
+      text: 'Jen: ...(telefon sesi)'
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: 'Jen: ... (telefon sesi)'
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: 'Jen: ... (telefon sesi)'
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: 'Sen: HEY!'
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: 'Jen: Aah! Hey.. Ne oldu ? '
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Sen: Pardon. \u0130lk defa b\xF6yle bir \u015Feye kat\u0131l\u0131yorum
+        o y\xFCz...(telefon sesi)"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Jen: ...(telefon sesi) Bir \u015Fey mi dedin ?"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Sen: Evet, \u015Fey di..."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Jen: Bu arada seni tan\u0131yor muyum ?"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Sen: Yeni geldim, bu oturuma kat\u0131laca\u011F\u0131m. "
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Jen: Hmm.. Daha \xF6nce a\xE7\u0131k art\u0131rmaya kat\u0131ld\u0131n
+        m\u0131 ?"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Sen: Evet, tabi ki, ama bunun gibisine de\u011Fil. A\xE7\u0131k art\u0131rmay\u0131
+        d\xFCzenleyenin ad\u0131n\u0131 bile bilmiyorum. Peki sen biliyor musun ?"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Jen: *bir \u015Fey kazanma sesi, oyun vb olabilir.* Yes!  Peki sen ...
+        ne ?"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Sen: D\xFCzenleyenin ad\u0131n\u0131 biliyor musun ? "
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Jen: Pek emin de\u011Filim, Bios ile ba\u015Flad\u0131\u011F\u0131n\u0131
+        biliyorum sadece."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Jen: Mavi g\xF6zl\xFC beyaz ejderhan\u0131n kafas\u0131n\u0131 alabildi\u011Fim
+        s\xFCrece kim oldu\u011Fu pek \xF6nemli de\u011Fil. *telefonuna yine bildirim
+        gelir*"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Jen: ...*telefon tu\u015F sesi*"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Sen: Beyaz ejderin...*Jen laf\u0131n\u0131 keser*"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Jen: Mavi g\xF6zl\xFC beyaz ejderin..."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Sen: Mavi g\xF6zl\xFC beyaz ejderin kafas\u0131n\u0131n burada oldu\u011Funu
+        nerden biliyorsun ?"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Jen: ...*tu\u015F sesi* Buraya gelmeden \xF6nce biraz ara\u015Ft\u0131rma
+        yapm\u0131\u015Ft\u0131m. Peki, senin iste\u011Fin bir \u015Fey var m\u0131
+        ?"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Sen: Mektup elime biraz ge\xE7 ula\u015Ft\u0131, e\u015Fyalar\u0131
+        ara\u015Ft\u0131racak vaktim olmad\u0131."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Jen: \xDCz\xFCld\xFCm, en az\u0131ndan sana bir t\xFCyo vereyim. E\u015Fyalardan
+        birinin bira oldu\u011Funu duydum, neyi ald\u0131\u011F\u0131na dikkat et."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Jen: E\u011Fer diyece\u011Fin ba\u015Fka bir \u015Fey yoksa, ara bitmeden
+        \u015Fu b\xF6l\xFCm\xFC ge\xE7mem laz\u0131m."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Sen: Te\u015Fekk\xFCrler.\r\n"
     altLines: []
   - sessionNumber: 1
     defaultLines: []
     altLines: []
   - sessionNumber: 2
-    defaultLines:
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: Egirl
-      text: yine curuk et yaa 1
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: Egirl
-      text: yine curuk et yaa 2
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: Egirl
-      text: yine curuk et yaa 3
+    defaultLines: []
     altLines: []
   - sessionNumber: 3
     defaultLines: []

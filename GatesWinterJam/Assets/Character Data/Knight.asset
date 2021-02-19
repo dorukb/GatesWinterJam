@@ -22,35 +22,20 @@ MonoBehaviour:
     defaultLines: []
     altLines: []
   - sessionNumber: 1
-    defaultLines:
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: knight
-      text: sovalye text 1
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: knight
-      text: sovalye text 2
+    defaultLines: []
     altLines: []
   - sessionNumber: 2
     defaultLines:
     - isDecisionLine: 0
       speakerIcon: {fileID: 0}
       speakerName: Knight
-      text: kutsal kase vampirde degil, text 1
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: Knight
-      text: kutsal kase vampirde degil, text 2
-    altLines:
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: Knight
-      text: kutsal kase vampirde, guvenme bro 1
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: Knight
-      text: kutsal kase vampirde, guvenme bro 2
+      text: "Anlat\u0131c\u0131: Yapacak bir \u015Feyler ararken, g\xF6z\xFCn koridorun
+        yan\u0131ndaki masaya oturmu\u015F Thomas ve Silas'\u0131n, satran\xE7 tahtas\u0131n\u0131n
+        ba\u015F\u0131nda oyunla alakal\u0131 konu\u015Ftuklar\u0131n duyuyorsun.
+        Yanlar\u0131na gitmeyi akl\u0131ndan ge\xE7irsen de satran\xE7 hakk\u0131nda
+        konu\u015Fman\u0131n daha s\u0131k\u0131c\u0131 olabilece\u011Fini d\xFC\u015F\xFCnd\xFC\u011F\xFCnden
+        vaz ge\xE7iyorsun."
+    altLines: []
   - sessionNumber: 3
     defaultLines: []
     altLines: []

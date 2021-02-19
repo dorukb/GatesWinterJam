@@ -14,45 +14,70 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: Max
   bioText: im a wolf raargh
-  mainSprite: {fileID: 0}
+  mainSprite: {fileID: 21300000, guid: 7d6b44d68dd0e1a478de465274ee9b01, type: 3}
   icon: {fileID: 0}
   charIndex: 5
   dialogues:
   - sessionNumber: 0
-    defaultLines:
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: kurt
-      text: wolf ses1 text 1
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: kurt
-      text: wolf ses1 text 2
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: kurt
-      text: wolf ses1 text 3
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: kurt
-      text: wolf ses1 text 4
+    defaultLines: []
     altLines: []
   - sessionNumber: 1
     defaultLines:
     - isDecisionLine: 0
       speakerIcon: {fileID: 0}
       speakerName: wolf
-      text: havadan sudan sohbet
+      text: "Anlat\u0131c\u0131: Odan\u0131n bir yerinden gelen yemek yeme sesleri
+        dikkatini \xE7ekiyor. (Kurabiye yeme sesleri)  Biraz daha dikkatli inceledi\u011Finde
+        sesin Max'den geldi\u011Fini  fark ediyosun."
     - isDecisionLine: 0
       speakerIcon: {fileID: 0}
       speakerName: wolf
-      text: havadan sudan sohbet 2
+      text: 'MC: Merhaba.'
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: wolf
+      text: "Kurt:(Kurabiye yeme sesleri) A\u011Fz\u0131 kurabiye ile dolu Merhaba
+        A\xE7l\u0131ktan \xF6lmesine ramak kalm\u0131\u015F gibi kurabiyeleri yemeye
+        devem ediyor."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: wolf
+      text: "MC: Her \u015Fey yolunda m\u0131 ?"
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: wolf
+      text: "Kurt: Evet, ama \u015Fu koku...  Yard\u0131mc\u0131lar kurabiye d\u0131\u015F\u0131nda
+        bir \u015Fey olmad\u0131\u011F\u0131n\u0131 s\xF6ylediler ama her yere et
+        kokusu sinmi\u015F."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: wolf
+      text: "Anlat\u0131c\u0131: Max kurabiyeler ile kendini bo\u011Fmadan doyurmaya
+        \xE7al\u0131\u015F\u0131rken bir \u015Feyler ta\u015F\u0131yan yard\u0131mc\u0131lar
+        dikkatini \xE7eker. \u0130lk ba\u015Fta ilgisini \xE7ekmi\u015F gibi g\xF6z\xFCkse
+        de, k\u0131sa s\xFCrede y\xFCz\xFCn\xFC b\xFCy\xFCk bir i\u011Frenme kaplar."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: wolf
+      text: "Kurt: Pasl\u0131 bir \u015Feyler kokuyor A\u011Fz\u0131n\u0131 ve burnunu
+        kapar..  Benim biraz hava almam laz\u0131m."
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: wolf
+      text: "Anlat\u0131c\u0131: Sen ona bir \u015Fey daha diyemeden ko\u015Far ad\u0131mlarla
+        uzakla\u015F\u0131r."
     altLines: []
   - sessionNumber: 2
     defaultLines: []
     altLines: []
   - sessionNumber: 3
-    defaultLines: []
+    defaultLines:
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: "Anlat\u0131c\u0131: Max'i k\xF6\u015Fede durur g\xF6r\xFCnce, yan\u0131na
+        gitmeye karar d\xFC\u015F\xFCnd\xFCm. Fakat, a\xE7l\u0131ktan titreyen g\xF6zleri
+        seni yapmamaya ikna etti."
     altLines: []
   - sessionNumber: 4
     defaultLines: []
