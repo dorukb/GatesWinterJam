@@ -173,7 +173,8 @@ public class AuctionManager : MonoBehaviour
         // show who won this item.
         FindObjectOfType<OfferUI>().HideOfferUI();
         itemSoldNotifUI.SetActive(true);
-        itemSoldText.text = "Player " + maxOfferOwner + " has bought the " + selectedItemData.itemDisplayName + " for " + maxOffer + " coins.";
+
+        itemSoldText.text = players[maxOfferOwner].GetComponent<Character>().charData.displayName + " has bought the " + selectedItemData.itemDisplayName + " for " + maxOffer + " coins.";
         Debug.Log("Player " + maxOfferOwner + " has won the " + selectedItemData.itemDisplayName);
 
         GameManager.Instance.DecreaseMoney(maxOfferOwner, maxOffer);

@@ -27,7 +27,7 @@ public class DialogueCharacter : MonoBehaviour
         dialogueIndicator.SetActive(show);
         showDialogue = show;
 
-        Debug.Log("Show: " + showDialogue + " for " + data.name);
+        //Debug.Log("Show: " + showDialogue + " for " + data.name);
     }
     public void DialogueRequested()
     {

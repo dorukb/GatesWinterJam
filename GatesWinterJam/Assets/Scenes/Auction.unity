@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playersMoneyUI: {fileID: 1368790371}
   offerTextUI: {fileID: 354793300}
-  charName: 
+  charData: {fileID: 11400000, guid: 75657b93f0ed6de47866a31082e86b85, type: 2}
   turnDuration: 30
   desiredItemBudgetPerct: 0.6
   neutralItemBudgetPerct: 0.2
@@ -3091,6 +3091,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
+      propertyPath: charData
+      value: 
+      objectReference: {fileID: 11400000, guid: 6032db1816c3fae478d450b67cd9db17,
+        type: 2}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
       propertyPath: offerTextUI
       value: 
       objectReference: {fileID: 962719777}
@@ -3101,18 +3107,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
+      propertyPath: turnDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
       propertyPath: playersMoneyUI
       value: 
       objectReference: {fileID: 1612787038}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: desiredItemBudgetPerct
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: neutralItemBudgetPerct
-      value: 0.15
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
@@ -3925,6 +3936,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
+      propertyPath: charData
+      value: 
+      objectReference: {fileID: 11400000, guid: a157cf005fa90b746941e30e728b078f,
+        type: 2}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
       propertyPath: offerTextUI
       value: 
       objectReference: {fileID: 1390599640}
@@ -3935,23 +3952,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
+      propertyPath: turnDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
       propertyPath: playersMoneyUI
       value: 
       objectReference: {fileID: 802501161}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: desiredItemBudgetPerct
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: neutralItemBudgetPerct
-      value: 0.08
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: desiredItems.Array.size
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
@@ -3970,6 +3992,24 @@ PrefabInstance:
       propertyPath: desiredItems.Array.data[2]
       value: 
       objectReference: {fileID: 11400000, guid: 63259c81d6f46174daa39103f4694f28,
+        type: 2}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
+      propertyPath: desiredItems.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: ec7aef3778accee4f8c649c6ca993d3e,
+        type: 2}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
+      propertyPath: desiredItems.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: c57c9a7d8e3a60f46b5267453e48c761,
+        type: 2}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
+      propertyPath: desiredItems.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: c4314f60a8c39b241a8e29bbf663ef5e,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f07fddf8a4924d54bb0d83ce179bc686, type: 3}
@@ -4604,6 +4644,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
+      propertyPath: charData
+      value: 
+      objectReference: {fileID: 11400000, guid: d21d95487a4848346b3ab59e79f24581,
+        type: 2}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
       propertyPath: offerTextUI
       value: 
       objectReference: {fileID: 207958104}
@@ -4614,23 +4660,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
+      propertyPath: turnDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
       propertyPath: playersMoneyUI
       value: 
       objectReference: {fileID: 241014125}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: desiredItemBudgetPerct
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: neutralItemBudgetPerct
-      value: 0.08
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: desiredItems.Array.size
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
@@ -4649,6 +4700,24 @@ PrefabInstance:
       propertyPath: desiredItems.Array.data[2]
       value: 
       objectReference: {fileID: 11400000, guid: 832deb6ce6511de49bf3d0c824884000,
+        type: 2}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
+      propertyPath: desiredItems.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2a3428e45ba4d6c47b60ed4d998f6e80,
+        type: 2}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
+      propertyPath: desiredItems.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 63259c81d6f46174daa39103f4694f28,
+        type: 2}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
+      propertyPath: desiredItems.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: c57c9a7d8e3a60f46b5267453e48c761,
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f07fddf8a4924d54bb0d83ce179bc686, type: 3}
@@ -5723,6 +5792,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
+      propertyPath: charData
+      value: 
+      objectReference: {fileID: 11400000, guid: c1c4fc706b8b48c4aaec770fe30ff2ca,
+        type: 2}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
       propertyPath: offerTextUI
       value: 
       objectReference: {fileID: 1143057107}
@@ -5733,18 +5808,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
+      propertyPath: turnDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
       propertyPath: playersMoneyUI
       value: 
       objectReference: {fileID: 1809646755}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: desiredItemBudgetPerct
-      value: 0.15
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: neutralItemBudgetPerct
-      value: 0.1
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
@@ -6406,6 +6486,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
+      propertyPath: charData
+      value: 
+      objectReference: {fileID: 11400000, guid: a9dfde11e417dc349adf78d9859e6d9b,
+        type: 2}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
       propertyPath: offerTextUI
       value: 
       objectReference: {fileID: 2080379296}
@@ -6416,18 +6502,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
+      propertyPath: turnDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
+        type: 3}
       propertyPath: playersMoneyUI
       value: 
       objectReference: {fileID: 1380028430}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: desiredItemBudgetPerct
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}
       propertyPath: neutralItemBudgetPerct
-      value: 0.15
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 3627238350516524267, guid: f07fddf8a4924d54bb0d83ce179bc686,
         type: 3}

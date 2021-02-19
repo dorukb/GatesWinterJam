@@ -10,39 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1e2cedf66e08794795040849d26d629, type: 3}
-  m_Name: Alien
+  m_Name: Player
   m_EditorClassIdentifier: 
-  displayName: Min'e
-  bioText: zlask biashdwks asdwds?!
+  displayName: Sen
+  bioText: sd
   mainSprite: {fileID: 0}
   icon: {fileID: 0}
-  charIndex: 1
+  charIndex: 0
   dialogues:
   - sessionNumber: 0
-    defaultLines:
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: alien
-      text: bu benim ilk satirim
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: alien
-      text: bu benim ikinci satirim
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: 
-      text: bu benim ucuncu satirim
+    defaultLines: []
     altLines: []
   - sessionNumber: 1
-    defaultLines:
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: 
-      text: 
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: 
-      text: 
+    defaultLines: []
     altLines: []
   - sessionNumber: 2
     defaultLines: []

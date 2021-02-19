@@ -864,12 +864,12 @@ MonoBehaviour:
   socialScenePeriod: 3
   sessionCount: 15
   playersCurrentMoney:
-  - 1200
-  - 700
-  - 500
-  - 600
-  - 500
-  - 800
+  - 2000
+  - 3000
+  - 4000
+  - 3000
+  - 6000
+  - 6000
   playerItems:
   - playerIndex: 0
     ownedItems: []

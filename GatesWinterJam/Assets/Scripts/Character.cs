@@ -9,7 +9,7 @@ public class Character : MonoBehaviour
     // decreased by the maxOfferAmount, if that player has won an auction, by the auction manager.
     public TextMeshProUGUI playersMoneyUI;
     public TextMeshProUGUI offerTextUI;
-    public string charName;
+    public CharacterData charData;
     //public int budget;  // set in the GameManager in Start Scene.
 
     public float turnDuration = 3f; // for AI players

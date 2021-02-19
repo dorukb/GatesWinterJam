@@ -16,9 +16,9 @@ public class TransitionManager : MonoBehaviour
         StartCoroutine(FadeOut(duration, transparent, Color.black, 0));
 
     }
-    public void LoadAuctionScene()
+    public void LoadIntroScene()
     {
-        //SceneManager.LoadScene(1);
+        //SceneManager.LoadScene(0);
         StartCoroutine(FadeOut(duration, transparent, Color.black, 1));
 
     }
@@ -28,10 +28,16 @@ public class TransitionManager : MonoBehaviour
         StartCoroutine(FadeOut(duration, transparent, Color.black, 2));
 
     }
+    public void LoadAuctionScene()
+    {
+        //SceneManager.LoadScene(1);
+        StartCoroutine(FadeOut(duration, transparent, Color.black, 3));
+
+    }
     public void LoadEndScene()
     {
         //SceneManager.LoadScene(3);
-        StartCoroutine(FadeOut(duration, transparent, Color.black, 3));
+        StartCoroutine(FadeOut(duration, transparent, Color.black, 4));
 
     }
     public void Start()

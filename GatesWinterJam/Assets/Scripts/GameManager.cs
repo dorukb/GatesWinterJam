@@ -45,6 +45,8 @@ public class GameManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+
+        // 0-start , 1-intro, 2-dialogue, 3-auction, 4-endscreen
         if (scene.buildIndex == 0) // start scene, show cinematic entrance etc.
         {
             currentSession = 1;
@@ -57,7 +59,7 @@ public class GameManager : MonoBehaviour
             }
             Debug.Log("restarted, reset currentsession, money, ownedItems.");
         }
-        else if (scene.buildIndex == 1) // auction scene
+        else if (scene.buildIndex == 3) // auction scene
         {
             //Debug.Log("Session scene");
             if (currentSession > sessionCount)

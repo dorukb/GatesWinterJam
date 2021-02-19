@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1e2cedf66e08794795040849d26d629, type: 3}
   m_Name: Egirl
   m_EditorClassIdentifier: 
-  displayName: Nerd gal
+  displayName: Jen
   bioText: i dunno whati want
   mainSprite: {fileID: 21300000, guid: 9a0192a109c795043aeb1cf8570e24a6, type: 3}
   icon: {fileID: 0}
