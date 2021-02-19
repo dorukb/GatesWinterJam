@@ -19,7 +19,23 @@ MonoBehaviour:
   charIndex: 3
   dialogues:
   - sessionNumber: 0
-    defaultLines: []
+    defaultLines:
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: 
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: 
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: 
+    - isDecisionLine: 0
+      speakerIcon: {fileID: 0}
+      speakerName: 
+      text: 
     altLines: []
   - sessionNumber: 1
     defaultLines: []
