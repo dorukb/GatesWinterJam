@@ -204,11 +204,13 @@ public class AuctionManager : MonoBehaviour
     {
         return selectedItemData.name;
     }
+
+    public AudioClip itemRevealSound;
     private void PickItem(int sessionNumber)
     {
         selectedItemData = items[sessionNumber-1];
         FindObjectOfType<ItemDisplay>().ShowItemWithID(selectedItemData.name);
-  
+        AudioManager.Instance.PlaySFX(itemRevealSound);
         Debug.Log("selling item " + selectedItemData.itemDisplayName + " this session.");
     }
 }

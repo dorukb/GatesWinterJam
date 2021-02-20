@@ -15,19 +15,10 @@ public class IntroDialogueManager : MonoBehaviour
     public GameObject dialogueNextButton;
 
     public List<Line> lines;
-    public void SetupScene()
+
+    private void Start()
     {
-        lines = new List<Line>();
-
-        GameManager.CandidateSpeakers speakers = GameManager.Instance.GetSessionSpeakers();
-
-        string debugText = "In session: " + GameManager.Instance.currentDialogueSession + " ";
-        foreach (string speakerName in speakers.speakerNames)
-        {
-            debugText += speakerName + " ";
-        }
-
-
+        StartTyping();
     }
     public void StartTyping()
     {
@@ -59,6 +50,7 @@ public class IntroDialogueManager : MonoBehaviour
         {
             textDisplay.text = "";
             index = 0;
+            FindObjectOfType<TransitionManager>().LoadDialogueScene();
         }
     }
     IEnumerator Type()

@@ -70,14 +70,14 @@ MonoBehaviour:
       speakerName: Maske
       text: "5 tane a\xE7\u0131k art\u0131rma ve 5 oturum ger\xE7ekle\u015Fecek.
         \r\nHer oturumda 3 adet e\u015Fya sat\u0131lacak. Bu e\u015Fyalar gizli olacak.
-        Aralarda istedi\u011Fini yapabilirsin. Birileriyle filan konu\u015Fabilirsin
+        Aralarda istedi\u011Fini yapabilirsin. Birileriyle falan konu\u015Fabilirsin
         sana kalm\u0131\u015F. "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
       speakerName: Maske
       text: "Anla\u015Fman gere\u011Fi, de\u011Ferli \u015Feyler sat\u0131n alman
-        gerekiyor unutma. E\u011Fer yeterince de\u011Feli e\u015Fyaya sahip olamazsan,
+        gerekiyor unutma. E\u011Fer yeterince de\u011Ferli e\u015Fyaya sahip olamazsan,
         anla\u015Fma bozulur.\r\nBunun d\u0131\u015F\u0131nda hile yapmaya \xE7al\u0131\u015Fman\u0131
         hi\xE7 \xF6nermem. Sat\u0131c\u0131 bu konuyu \xE7ok \xF6nemsiyor.\r\nKurallar\u0131
         biliyorsun de\u011Fil mi ?"
@@ -85,7 +85,7 @@ MonoBehaviour:
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
       speakerName: Sen
-      text: "Hay\u0131r, kimse kurallar hakk\u0131nda bir \u015Feyler s\xF6ylemedi. "
+      text: "Hay\u0131r, kimse kurallar hakk\u0131nda bir \u015Fey s\xF6ylemedi. "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
@@ -96,7 +96,7 @@ MonoBehaviour:
       speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
       speakerName: Maske
       text: "Her neyse bir \u015Fey \xE7almaman ve e\u015Fya dolab\u0131na girmemen
-        yeterli olacakt\u0131r. \r\nHatal\u0131 bir hareketinde sonunun Medusa'n\u0131n
+        yeterli olacakt\u0131r. \r\nHatal\u0131 bir hareketinde sonun Medusa'n\u0131n
         ba\u015F\u0131na gelen gibi olur."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}

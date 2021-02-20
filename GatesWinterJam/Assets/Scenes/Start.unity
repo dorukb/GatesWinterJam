@@ -723,7 +723,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.567
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -849,9 +849,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -6468269355409293540, guid: 96a285d2def7eef4090729854762d4ec,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 4c894a64e74641a4b978674163d596ec, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e811a3f63ea2d4640a26cedf8d6b2952, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1469,7 +1469,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1552802908}
-        m_MethodName: LoadDialogueScene
+        m_MethodName: LoadIntroScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1911,7 +1911,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: df1d0b397b2a3644f9a51336a9d5a64a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.9
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2356,7 +2356,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fa7796e39b684434aaecf10f270346c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d471f0a890334c418044914fc846985, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2446,7 +2446,7 @@ PrefabInstance:
     - target: {fileID: 951030584276950033, guid: c95da0c1479174447828a827ab72bb13,
         type: 3}
       propertyPath: ShouldFadeInStart
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 951030584276950038, guid: c95da0c1479174447828a827ab72bb13,
         type: 3}

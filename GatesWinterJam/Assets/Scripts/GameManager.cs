@@ -71,7 +71,8 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                FindObjectOfType<AuctionManager>().StartSession(currentSession);
+                Invoke("StartSessionDelayed", 1.5f);
+                //FindObjectOfType<AuctionManager>().StartSession(currentSession);
             }
         }
         else if (scene.buildIndex == 2) //dialogue scene
@@ -82,7 +83,12 @@ public class GameManager : MonoBehaviour
             FindObjectOfType<DialogueManager>().SetupScene();
         }
     }
+    private void StartSessionDelayed()
+    {
+        Debug.Log("session started");
+        FindObjectOfType<AuctionManager>().StartSession(currentSession);
 
+    }
     public void SessionEnded()
     {
         if (currentSession % socialScenePeriod == 0)
