@@ -33,79 +33,79 @@ MonoBehaviour:
       text: "Ona do\u011Fru y\xFCr\xFCyorsun."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: Merhaba.
     - hasSoundEffect: 1
       soundEffect: {fileID: 8300000, guid: e28703b273cc0984fb132e78c5dca760, type: 3}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: ...*telefon sesi*
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: ...*telefon sesi*
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: ...*telefon sesi*
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: HEY!
     - hasSoundEffect: 1
       soundEffect: {fileID: 8300000, guid: a02e38aadc472c84585432e4e6e049de, type: 3}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: 'Aah! Hey.. Ne oldu ? '
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Pardon. \u0130lk defa b\xF6yle bir \u015Feye kat\u0131l\u0131yorum o
         y\xFCz...(telefon sesi)"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: "...*telefon sesi* Bir \u015Fey mi dedin?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Evet, \u015Fey di..."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: "Bu arada seni tan\u0131yor muyum?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Yeni geldim, bu oturuma kat\u0131laca\u011F\u0131m. "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: "Hmm.. Daha \xF6nce a\xE7\u0131k art\u0131rmaya kat\u0131ld\u0131n m\u0131?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Evet, tabi ki, ama bunun gibisine de\u011Fil. A\xE7\u0131k art\u0131rmay\u0131
         d\xFCzenleyenin ad\u0131n\u0131 bile bilmiyorum. Peki sen biliyor musun ?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: "*ba\u015Far\u0131m sesi* Yes!  Peki sen ... ne?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "D\xFCzenleyenin ad\u0131n\u0131 biliyor musun ? "
     - hasSoundEffect: 0
@@ -116,60 +116,60 @@ MonoBehaviour:
         biliyorum sadece."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: "Mavi g\xF6zl\xFC beyaz ejderhan\u0131n kafas\u0131n\u0131 alabildi\u011Fim
         s\xFCrece kim oldu\u011Fu pek \xF6nemli de\u011Fil. *telefonuna yine bildirim
         gelir*"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: "...*telefon tu\u015F sesi*"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Beyaz ejderin...*Jen laf\u0131n\u0131 keser*"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: "Mavi g\xF6zl\xFC beyaz ejderin..."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Mavi g\xF6zl\xFC beyaz ejderin kafas\u0131n\u0131n burada oldu\u011Funu
         nerden biliyorsun ?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: "...*tu\u015F sesi* Buraya gelmeden \xF6nce biraz ara\u015Ft\u0131rma
         yapm\u0131\u015Ft\u0131m. Peki, senin iste\u011Fin bir \u015Fey var m\u0131
         ?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Mektup elime biraz ge\xE7 ula\u015Ft\u0131, e\u015Fyalar\u0131 ara\u015Ft\u0131racak
         vaktim olmad\u0131."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: "\xDCz\xFCld\xFCm, en az\u0131ndan sana bir t\xFCyo vereyim. E\u015Fyalardan
         birinin bira oldu\u011Funu duydum, neyi ald\u0131\u011F\u0131na dikkat et."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: "E\u011Fer diyece\u011Fin ba\u015Fka bir \u015Fey yoksa, ara bitmeden
         \u015Fu b\xF6l\xFCm\xFC ge\xE7mem laz\u0131m."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Te\u015Fekk\xFCrler.\r\n"
     altLines: []

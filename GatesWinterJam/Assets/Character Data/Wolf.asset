@@ -32,23 +32,23 @@ MonoBehaviour:
         geldi\u011Fini  fark ediyosun."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: Merhaba.
     - hasSoundEffect: 1
       soundEffect: {fileID: 8300000, guid: 153eac6be2325784fa963b594bb58976, type: 3}
-      speakerIcon: {fileID: 21300000, guid: e71ee05fd7df18e4a80510f0dd1b7307, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 7d6b44d68dd0e1a478de465274ee9b01, type: 3}
       speakerName: Max
       text: "Merhaba *A\xE7l\u0131ktan \xF6lmesine ramak kalm\u0131\u015F gibi kurabiyeleri
         yemeye devem ediyor.*"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Her \u015Fey yolunda m\u0131 ?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: e71ee05fd7df18e4a80510f0dd1b7307, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 7d6b44d68dd0e1a478de465274ee9b01, type: 3}
       speakerName: Max
       text: "Evet, ama \u015Fu koku...  Yard\u0131mc\u0131lar kurabiye d\u0131\u015F\u0131nda
         bir \u015Fey olmad\u0131\u011F\u0131n\u0131 s\xF6ylediler ama her yere et
@@ -63,7 +63,7 @@ MonoBehaviour:
         s\xFCrede y\xFCz\xFCn\xFC b\xFCy\xFCk bir i\u011Frenme kaplar."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: e71ee05fd7df18e4a80510f0dd1b7307, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 7d6b44d68dd0e1a478de465274ee9b01, type: 3}
       speakerName: Max
       text: "Pasl\u0131 bir \u015Feyler kokuyor A\u011Fz\u0131n\u0131 ve burnunu
         kapar..  Benim biraz hava almam laz\u0131m."
