@@ -126,10 +126,13 @@ public class AuctionManager : MonoBehaviour
         if (playerIndex == 0) //only if human player
         {
             float playersBudget = GameManager.Instance.GetCurrentMoney(playerIndex);
-            FindObjectOfType<OfferUI>().ShowOfferUI(maxOffer + offerIncreaseAmount, playersBudget);
+            FindObjectOfType<OfferUI>().Highlight(true);
+            FindObjectOfType<OfferUI>().ShowOfferUI(maxOffer + offerIncreaseAmount, playersBudget, true);
         }
         else
         {
+            FindObjectOfType<OfferUI>().Highlight(false);
+
             FindObjectOfType<OfferUI>().HideOfferUI();
         }
 

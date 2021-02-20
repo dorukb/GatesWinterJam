@@ -9,6 +9,10 @@ public class OfferUI : MonoBehaviour
 {
     public Button makeOfferButton;
     public GameObject OfferUIVisual;
+    public Image OfferUIImage;
+    public Sprite highlightSprite;
+    public Sprite defaultSprite;
+
     public TextMeshProUGUI offerAmount;
     public int increaseAmount;
 
@@ -22,7 +26,19 @@ public class OfferUI : MonoBehaviour
     {
         increaseAmount = FindObjectOfType<AuctionManager>().offerIncreaseAmount;
     }
-    public void ShowOfferUI(int roundStartOffer, float playerMoney)
+
+    public void Highlight(bool highlight)
+    {
+        if (highlight)
+        {
+            OfferUIImage.sprite = highlightSprite;
+        }
+        else
+        {
+            OfferUIImage.sprite = defaultSprite;
+        }
+    }
+    public void ShowOfferUI(int roundStartOffer, float playerMoney, bool isPlayer)
     {
         budget = playerMoney;
         
