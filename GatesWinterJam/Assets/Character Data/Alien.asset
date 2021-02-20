@@ -36,7 +36,7 @@ MonoBehaviour:
         yapmac\u0131k bir g\xFCl\xFCmsemeyle s\xFCsledi."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 4059f994d7176c148b372a420fc43115, type: 3}
       speakerName: Min'en
       text: "Merhaba, bana e\u015Flik etmek istemez misin can\u0131m?"
     - hasSoundEffect: 0
@@ -47,12 +47,12 @@ MonoBehaviour:
         zaman ge\xE7irmeye karar verdin."
     - hasSoundEffect: 1
       soundEffect: {fileID: 8300000, guid: 3ee3ee59be05530409a04a42ed6e008c, type: 3}
-      speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 4059f994d7176c148b372a420fc43115, type: 3}
       speakerName: Min'en
       text: "Sa\xE7lar\u0131n ne kadarda g\xFCzelmi\u015F."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Te\u015Fekk\xFCr ederim. Sizinki de. "
     - hasSoundEffect: 0
@@ -63,46 +63,46 @@ MonoBehaviour:
         verdi"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 4059f994d7176c148b372a420fc43115, type: 3}
       speakerName: Min'en
       text: "Bu oturumda aram\u0131za kat\u0131lacak sensin, de\u011Fil mi?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: Evet, benim.
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 4059f994d7176c148b372a420fc43115, type: 3}
       speakerName: Min'en
       text: "Ne g\xFCzel, ne g\xFCzel. Daha \xF6nce ba\u015Fka bir @!:?{>!2 a\xE7\u0131k
         artt\u0131rmaya kat\u0131ld\u0131n m\u0131 ? Ya da @!'\\;}{?| a\xE7\u0131k
         artt\u0131rmas\u0131na?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Anlamad\u0131m, tekrar s\xF6yleyebilir misiniz?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 4059f994d7176c148b372a420fc43115, type: 3}
       speakerName: Min'en
       text: "Tabi ki kat\u0131lmad\u0131n. Sen dert etme onu, daha gen\xE7sin. \xD6zellikle
         istedi\u011Fin bir \u015Feyler var m\u0131 buradan, onu s\xF6yle."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Tam olarak yok ne yaz\u0131k ki. Ya sizin?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 4059f994d7176c148b372a420fc43115, type: 3}
       speakerName: Min'en
       text: "Hmm... Tam bir \u015Fey istiyorum diyemem ama d\xFCnyaya ait k\xFC\xE7\xFCk
         \u015Feyleri seviyorum. \xC7ok ... egzotik oluyorlar. "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 4059f994d7176c148b372a420fc43115, type: 3}
       speakerName: Min'en
       text: "Hatta \u015Fimdiki oturumda tuvalet ka\u011F\u0131d\u0131 oldu\u011Fu
         duyumunu ald\u0131m. E\u011Fer onu alabilirsem, Koleksiyonumun en g\xF6zde
@@ -138,13 +138,13 @@ MonoBehaviour:
         engellemeye yeterli de\u011Fil."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: "Yard\u0131mc\u0131larla konu\u015Fabildin mi ? Bir sonraki e\u015Fyalar
         hakk\u0131nda ne s\xF6yl\xFCyorlar?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 4059f994d7176c148b372a420fc43115, type: 3}
       speakerName: Min'en
       text: "Tabi ki de. T\xFCm e\u015Fyalar de\u011Ferli dedi, \xF6zellikle do\u011Fru
         anlad\u0131ysam ilk ikisi oyun konsolu gibi bir \u015Feylerdi. Sen o t\xFCr
@@ -153,7 +153,7 @@ MonoBehaviour:
         al\u0131r\u0131m, "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3d780f2acbf33ba48aa263bb803fc8db, type: 3}
       speakerName: Jen
       text: Hmm.. Tamam. Olur, fark etmez.
     - hasSoundEffect: 0
@@ -171,12 +171,12 @@ MonoBehaviour:
         seyretmeye devam ediyor."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: Merhaba.
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 4059f994d7176c148b372a420fc43115, type: 3}
       speakerName: Min'en
       text: "Merhaba, can\u0131m. \xC7ay i\xE7mek ister misin ?"
     - hasSoundEffect: 1

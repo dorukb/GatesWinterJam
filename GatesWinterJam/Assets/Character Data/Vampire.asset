@@ -52,25 +52,25 @@ MonoBehaviour:
         sesi, seni onlardan uzakla\u015Ft\u0131r\u0131yor."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 23e27834405234f43ae85bc118d51112, type: 3}
+      speakerIcon: {fileID: 21300000, guid: ccbfa201455bfca4381be06d661af386, type: 3}
       speakerName: Silas
       text: '... bilir misiniz ?
 
 '
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: Pardon, tekrar edebilir misin ?
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 23e27834405234f43ae85bc118d51112, type: 3}
+      speakerIcon: {fileID: 21300000, guid: ccbfa201455bfca4381be06d661af386, type: 3}
       speakerName: Silas
       text: "E\u011Fer vaktiniz varsa sizinle bir konuyu konu\u015Fmak istiyordum,
         acaba benimle gelebilir misiniz ?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Tabi. \n"
     - hasSoundEffect: 0
@@ -93,14 +93,14 @@ MonoBehaviour:
       text: "Silas ile k\xFC\xE7\xFCk bir odaya geldiniz.\n"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 23e27834405234f43ae85bc118d51112, type: 3}
+      speakerIcon: {fileID: 21300000, guid: ccbfa201455bfca4381be06d661af386, type: 3}
       speakerName: Silas
       text: "Size bir anla\u015Fma sunmak istiyorum. Arzulad\u0131\u011F\u0131m bir
         e\u015Fya var, lakin fiyat\u0131n a\u015F\u0131r\u0131 y\xFCkselmesi durumunda
         onu\u0131 ba\u015Fkas\u0131 elde edebilir. "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 23e27834405234f43ae85bc118d51112, type: 3}
+      speakerIcon: {fileID: 21300000, guid: ccbfa201455bfca4381be06d661af386, type: 3}
       speakerName: Silas
       text: "Sizden istedi\u011Fim tek \u015Fey et kokan \xFCr\xFCne teklif vermemeniz.
         Bu sayede di\u011Ferleri de teklif verirken daha temkinli davranacakt\u0131r. "
@@ -113,28 +113,28 @@ MonoBehaviour:
         sonra Silas'\u0131n y\xFCz\xFCn\xFC sinsi bir g\xFCl\xFCmseme kaplad\u0131."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 23e27834405234f43ae85bc118d51112, type: 3}
+      speakerIcon: {fileID: 21300000, guid: ccbfa201455bfca4381be06d661af386, type: 3}
       speakerName: Silas
       text: "Biraz \xF6nceki laflar\u0131ma l\xFCtfen ald\u0131rmay\u0131n, onlar\u0131n
         hepsi sadece yaland\u0131. Thomas'\u0131n beni takip etti\u011Fini biliyordum,
         onu cayd\u0131racak bir \u015Feye ihtiyac\u0131m vard\u0131.\n"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: 'Thomas neden seni takip ediyordu ki ?
 
 '
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 23e27834405234f43ae85bc118d51112, type: 3}
+      speakerIcon: {fileID: 21300000, guid: ccbfa201455bfca4381be06d661af386, type: 3}
       speakerName: Silas
       text: "K\xFC\xE7\xFCk bir anla\u015Fmam\u0131z vard\u0131, ancak kendisi buna
         uymamay\u0131 tercih etti. Hala benden faydalanabildi\u011Fi kadar faydalanmaya
         \xE7al\u0131\u015F\u0131yor.\n"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 23e27834405234f43ae85bc118d51112, type: 3}
+      speakerIcon: {fileID: 21300000, guid: ccbfa201455bfca4381be06d661af386, type: 3}
       speakerName: Silas
       text: "Te\u015Fekk\xFCr ederim istemeden de yapt\u0131\u011F\u0131n\u0131z
         yard\u0131m i\xE7in. \u0130yi g\xFCnler.\n"
@@ -157,14 +157,14 @@ MonoBehaviour:
         fark edersin.*"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 23e27834405234f43ae85bc118d51112, type: 3}
+      speakerIcon: {fileID: 21300000, guid: ccbfa201455bfca4381be06d661af386, type: 3}
       speakerName: Silas
       text: "\u0130yi g\xFCnler. \xD6ncelikle bu \u015Fekilde ileti\u015Fim kurdu\u011Fum
         i\xE7in \xF6z\xFCr dilerim, lakin b\xF6ylesinin daha g\xFCvenli olaca\u011F\u0131n\u0131
         d\xFC\u015F\xFCnd\xFCm."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 23e27834405234f43ae85bc118d51112, type: 3}
+      speakerIcon: {fileID: 21300000, guid: ccbfa201455bfca4381be06d661af386, type: 3}
       speakerName: Silas
       text: "Sat\u0131lacak \xFCr\xFCnlerle ilgili bir duyum ald\u0131m ve de sizin
         benden daha \xE7ok ihtiyac\u0131n\u0131z olabilece\u011Fini sezdim. Cin Lambas\u0131
@@ -179,7 +179,7 @@ MonoBehaviour:
         fark edersin."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 23e27834405234f43ae85bc118d51112, type: 3}
+      speakerIcon: {fileID: 21300000, guid: ccbfa201455bfca4381be06d661af386, type: 3}
       speakerName: ...
       text: "Size yeterince te\u015Fekk\xFCr edemedi\u011Fimi hissettim bu y\xFCzden
         sizi ald\u0131\u011F\u0131m bir duyumdan haberdar etmek istedim. E\u011Fer
