@@ -54,11 +54,13 @@ public class AuctionManager : MonoBehaviour
         
         PlayTurn(currentPlayer);
     }
+    public AudioClip offerSFX;
     public void MadeDecision(int playerIndex, int offerAmount) // players should call this when decision is made.
     {
         if (offerAmount != 0)
         {
             Debug.Log("Player " + playerIndex + " offered " + offerAmount + " dollars");
+            AudioManager.Instance.PlaySFX(offerSFX);
             RegisterOffer(playerIndex, offerAmount);
         }
         else

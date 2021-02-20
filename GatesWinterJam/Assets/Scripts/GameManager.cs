@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
 
 
     [SerializeField] int playerScore;
+    public int playerValuableItemCount = 0;
     [SerializeField] List<CandidateSpeakers> sessionSpeakers;
 
     private bool playedTutorial = false; // dont reset, show tutorial once.
@@ -52,13 +53,16 @@ public class GameManager : MonoBehaviour
         {
             currentSession = 1;
             currentDialogueSession = 0;
+            playerScore = 0;
+            playerValuableItemCount = 0;
+
             for (int i = 0; i < moneyCopy.Count; i++) playersCurrentMoney[i] = moneyCopy[i];
 
             for (int i = 0; i < playerItems.Count; i++)
             {
                 playerItems[i].ownedItems = new List<string>();
             }
-            Debug.Log("restarted, reset currentsession, money, ownedItems.");
+            Debug.Log("restarted, reset currentsession, money, ownedItems, score, itemcount");
         }
         else if (scene.buildIndex == 3) // auction scene
         {
@@ -143,6 +147,11 @@ public class GameManager : MonoBehaviour
 
         }
         playerItems[playerIndex].ownedItems.Add(itemData.name);
+
+        if(itemData.type == ItemType.Valuable)
+        {
+            playerValuableItemCount++;
+        }
     }
     public bool HasItem(int playerIndex, string itemId)
     {
@@ -154,6 +163,10 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
+    public List<string> GetPlayerItems()
+    {
+        return playerItems[0].ownedItems;
+    }
     public bool IsFirstDialogueSession()
     {
         return currentDialogueSession == 1;

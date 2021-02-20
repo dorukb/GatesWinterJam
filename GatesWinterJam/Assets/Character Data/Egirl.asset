@@ -57,7 +57,7 @@ MonoBehaviour:
       speakerName: Sen
       text: HEY!
     - hasSoundEffect: 1
-      soundEffect: {fileID: 8300000, guid: a02e38aadc472c84585432e4e6e049de, type: 3}
+      soundEffect: {fileID: 8300000, guid: 35a70843dc0b864419ab68473866a5d9, type: 3}
       speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
       speakerName: Jen
       text: 'Aah! Hey.. Ne oldu ? '
