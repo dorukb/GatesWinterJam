@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WhiteEyesBlueDragon
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
+  revealedSprite: {fileID: 21300000, guid: 6b23720f45b918d45b11ab4bcf5b935f, type: 3}
   itemDisplayName: "White Eyes Blue Dragon\u2019un ba\u015F\u0131"
   iyelikEki: "n\u0131"
   type: 1

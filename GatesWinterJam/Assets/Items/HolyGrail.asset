@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: HolyGrail
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
+  revealedSprite: {fileID: 21300000, guid: 59ca73a1e0e46784397960e2f6372e99, type: 3}
   itemDisplayName: Kutsal Kase
   iyelikEki: yi
   type: 0

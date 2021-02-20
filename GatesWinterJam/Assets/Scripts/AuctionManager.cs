@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AuctionManager : MonoBehaviour
 {
@@ -173,6 +174,9 @@ public class AuctionManager : MonoBehaviour
             offers[playerIndex] = amount;
         }
     }
+
+    public Image revealedItemImage;
+
     private void EndSession()
     {
         itemDisplay.SetActive(false);
@@ -180,6 +184,7 @@ public class AuctionManager : MonoBehaviour
         // show who won this item.
         FindObjectOfType<OfferUI>().HideOfferUI();
         itemSoldNotifUI.SetActive(true);
+        revealedItemImage.sprite = selectedItemData.revealedSprite;
 
         string optionalSuffix = maxOfferOwner == 0 ? "n" : "";
         itemSoldText.text = players[maxOfferOwner].GetComponent<Character>().charData.displayName +" "+ selectedItemData.itemDisplayName + "'" +selectedItemData.iyelikEki + " kazandı" + optionalSuffix;

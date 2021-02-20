@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pipe
   m_EditorClassIdentifier: 
   hiddenSprite: {fileID: 0}
-  revealedSprite: {fileID: 0}
+  revealedSprite: {fileID: 21300000, guid: 5c3179a526daf764a9f6667a1d492f48, type: 3}
   itemDisplayName: Luletasi pipo
   iyelikEki: yu
   type: 1
