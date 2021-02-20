@@ -13,53 +13,54 @@ MonoBehaviour:
   m_Name: Alien
   m_EditorClassIdentifier: 
   displayName: Min'en
-  bioText: zlask biashdwks asdwds?!
+  bioText: 
   mainSprite: {fileID: 21300000, guid: 4059f994d7176c148b372a420fc43115, type: 3}
   icon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
   charIndex: 1
   dialogues:
   - sessionNumber: 0
     defaultLines:
-    - hasSoundEffect: 0
-      soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: ce67151bec3ba804282b5c8813486b6c, type: 3}
+    - hasSoundEffect: 1
+      soundEffect: {fileID: 8300000, guid: 3ee3ee59be05530409a04a42ed6e008c, type: 3}
+      speakerIcon: {fileID: 0}
       speakerName: ...
-      text: " *Di\u011Ferleri farkl\u0131 yerlere oturmu\u015F, kendi hallerinde
-        bir \u015Feylerle u\u011Fra\u015F\u0131rken, Min'en bulabildi\u011Fi en g\xFCzel
+      text: "Di\u011Ferleri farkl\u0131 yerlere oturmu\u015F, kendi hallerinde bir
+        \u015Feylerle u\u011Fra\u015F\u0131rken, Min'en bulabildi\u011Fi en g\xFCzel
         masaya oturmu\u015F, \xE7ay\u0131ndan ald\u0131\u011F\u0131 k\xFC\xE7\xFCk
         yudumlar e\u015Fli\u011Finde onlar\u0131 seyrediyor. "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: ce67151bec3ba804282b5c8813486b6c, type: 3}
+      speakerIcon: {fileID: 0}
       speakerName: ...
       text: "Senin ona bakt\u0131\u011F\u0131n\u0131 fark etti\u011Finde, y\xFCz\xFCn\xFC
-        samimi bir g\xFCl\xFCmsemeyle s\xFCsledi."
+        yapmac\u0131k bir g\xFCl\xFCmsemeyle s\xFCsledi."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
       speakerName: Min'en
-      text: "Merhaba, bana e\u015Flik etmek istemez misin can\u0131m ?"
+      text: "Merhaba, bana e\u015Flik etmek istemez misin can\u0131m?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: ce67151bec3ba804282b5c8813486b6c, type: 3}
+      speakerIcon: {fileID: 0}
       speakerName: ...
-      text: "*Bu kibar teklifi kabul edip, \xE7ay e\u015Fli\u011Finde onunla biraz
-        zaman ge\xE7irmeye karar verdin.*"
+      text: "Bu kibar teklifi kabul edip, \xE7ay e\u015Fli\u011Finde onunla biraz
+        zaman ge\xE7irmeye karar verdin."
     - hasSoundEffect: 1
       soundEffect: {fileID: 8300000, guid: 3ee3ee59be05530409a04a42ed6e008c, type: 3}
       speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
       speakerName: Min'en
-      text: "Sa\xE7lar\u0131n ne kadar da g\xFCzelmi\u015F."
+      text: "Sa\xE7lar\u0131n ne kadarda g\xFCzelmi\u015F."
+    - hasSoundEffect: 0
+      soundEffect: {fileID: 0}
+      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerName: Sen
+      text: "Te\u015Fekk\xFCr ederim. Sizinki de. "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 0}
-      speakerName: Sen
-      text: "Te\u015Fekk\xFCr ederim. Sizin ki de. "
-    - hasSoundEffect: 0
-      soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: ce67151bec3ba804282b5c8813486b6c, type: 3}
       speakerName: ...
-      text: "*Neredeyse samimi bir g\xFCl\xFCmseme ile kar\u015F\u0131l\u0131k verdi*"
+      text: "Min'en, nerdeyse samimi bir g\xFCl\xFCmseme ile kar\u015F\u0131l\u0131k
+        verdi"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
@@ -67,27 +68,32 @@ MonoBehaviour:
       text: "Bu oturumda aram\u0131za kat\u0131lacak sensin, de\u011Fil mi?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
-      speakerName: Min'en
-      text: "Uzayl\u0131: Ne g\xFCzel, ne g\xFCzel. Daha \xF6nce ba\u015Fka bir @!:?{>!2
-        a\xE7\u0131k artt\u0131rmaya kat\u0131ld\u0131n m\u0131 ? Ya da @!'\\;}{?|
-        a\xE7\u0131k artt\u0131rmas\u0131na ?"
-    - hasSoundEffect: 0
-      soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 0}
+      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
       speakerName: Sen
-      text: "Tam duyamad\u0131m, tekrar s\xF6yleyebilir misiniz ?"
+      text: Evet, benim.
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
       speakerName: Min'en
-      text: "Tabi ki kat\u0131lmad\u0131n. Sen dert etme onu. \xD6zellikle istedi\u011Fin
-        bir \u015Feyler var m\u0131 buradan, onu s\xF6yle."
+      text: "Ne g\xFCzel, ne g\xFCzel. Daha \xF6nce ba\u015Fka bir @!:?{>!2 a\xE7\u0131k
+        artt\u0131rmaya kat\u0131ld\u0131n m\u0131 ? Ya da @!'\\;}{?| a\xE7\u0131k
+        artt\u0131rmas\u0131na?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 0}
+      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
       speakerName: Sen
-      text: "Tam olarak yok ne yaz\u0131k ki. Ya sizin ?"
+      text: "Anlamad\u0131m, tekrar s\xF6yleyebilir misiniz?"
+    - hasSoundEffect: 0
+      soundEffect: {fileID: 0}
+      speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
+      speakerName: Min'en
+      text: "Tabi ki kat\u0131lmad\u0131n. Sen dert etme onu, daha gen\xE7sin. \xD6zellikle
+        istedi\u011Fin bir \u015Feyler var m\u0131 buradan, onu s\xF6yle."
+    - hasSoundEffect: 0
+      soundEffect: {fileID: 0}
+      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerName: Sen
+      text: "Tam olarak yok ne yaz\u0131k ki. Ya sizin?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
@@ -98,15 +104,15 @@ MonoBehaviour:
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
       speakerName: Min'en
-      text: " Hatta \u015Fimdiki oturumda tuvalet ka\u011F\u0131d\u0131 oldu\u011Fu
+      text: "Hatta \u015Fimdiki oturumda tuvalet ka\u011F\u0131d\u0131 oldu\u011Fu
         duyumunu ald\u0131m. E\u011Fer onu alabilirsem, Koleksiyonumun en g\xF6zde
         par\xE7as\u0131 haline gelecek."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: ce67151bec3ba804282b5c8813486b6c, type: 3}
+      speakerIcon: {fileID: 0}
       speakerName: ...
-      text: "*Biraz daha konu\u015Ftuktan sonra, Min'en oturumdan \xF6nce  biraz
-        nefes almak i\xE7in yan\u0131ndan ayr\u0131l\u0131r.*"
+      text: "Biraz daha konu\u015Ftuktan sonra, Min'en oturumdan \xF6nce biraz d\u0131\u015Farda
+        nefes almak i\xE7in yan\u0131ndan ayr\u0131l\u0131r."
     altLines: []
   - sessionNumber: 1
     defaultLines: []
@@ -118,53 +124,54 @@ MonoBehaviour:
     defaultLines:
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: ce67151bec3ba804282b5c8813486b6c, type: 3}
+      speakerIcon: {fileID: 0}
       speakerName: ...
-      text: "*Saatler s\xFCren oturumlar ve aralar sonunda art\u0131k tuvalete gitmen
-        gerekti\u011Fini fark ettin. Kanalizasyonun nereye ba\u011Fl\u0131 oldu\u011Fu
-        ve kanalizasyondan bir \u015Fey t\u0131rmanabilir mi gibi sorularla tuvalette
-        bir s\xFCre vakit ge\xE7irdikten sonra i\xE7eriye, Min'en ve Jen girer. *"
+      text: "Saatler s\xFCren oturumlar ve aralar sonunda art\u0131k tuvalete gitmen
+        gerekti\u011Fini fark ettin. \u0130\xE7eride biraz zaman ge\xE7irdikten sona,
+        i\xE7eriye Min'en ve Jen girdi. "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: ce67151bec3ba804282b5c8813486b6c, type: 3}
+      speakerIcon: {fileID: 0}
       speakerName: ...
-      text: "*\u0130\xE7eriye girer girmez yapt\u0131klar\u0131 ilk \u015Fey muslu\u011Fu
-        olabildi\u011Fince a\xE7mak olur, yine de bu ses onlar\u0131 duymana engelemeye
-        yeterli de\u011Fildir.*"
+      text: "\u0130\xE7eriye girer girmez yapt\u0131klar\u0131 ilk \u015Fey muslu\u011Fu
+        olabildi\u011Fince a\xE7mak oldu, yine de suyun sesi onlar\u0131 duyman\u0131
+        engellemeye yeterli de\u011Fil."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
       speakerName: Jen
-      text: "...yard\u0131mc\u0131larla konu\u015Fabildin mi ? Bir sonraki e\u015Fyalar
-        hakk\u0131nda ne s\xF6yl\xFCyor?"
+      text: "Yard\u0131mc\u0131larla konu\u015Fabildin mi ? Bir sonraki e\u015Fyalar
+        hakk\u0131nda ne s\xF6yl\xFCyorlar?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
       speakerName: Min'en
-      text: "Min'en: Tabi ki de. T\xFCm e\u015Fyalar de\u011Ferli dedi, \xF6zellikle
-        do\u011Fru anlad\u0131ysam ilk ikisi senin sevebilece\u011Fin \u015Feylere
-        benziyor. \u0130stersen onlar\u0131 sen almaya \xE7al\u0131\u015F, \xFC\xE7\xFCnc\xFCy\xFC
-        de ben almaya \xE7al\u0131\u015F\u0131r\u0131m."
+      text: "Tabi ki de. T\xFCm e\u015Fyalar de\u011Ferli dedi, \xF6zellikle do\u011Fru
+        anlad\u0131ysam ilk ikisi oyun konsolu gibi bir \u015Feylerdi. Sen o t\xFCr
+        \u015Feyleri seviyordun, de\u011Fil mi can\u0131m ? \u0130stersen onlar\u0131
+        sen almaya \xE7al\u0131\u015F ben de \xFC\xE7\xFCnc\xFC e\u015Fyay\u0131
+        al\u0131r\u0131m, "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: 6a935b00816205649bfe30548a259c04, type: 3}
       speakerName: Jen
-      text: 'Tabi, olur bana da. '
-    - hasSoundEffect: 0
-      soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: ce67151bec3ba804282b5c8813486b6c, type: 3}
-      speakerName: ...
-      text: "*Konu\u015Fmalar\u0131n\u0131n ard\u0131ndan odadan tuvaletten \xE7\u0131karlar.*"
-    altLines:
-    - hasSoundEffect: 0
-      soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: ce67151bec3ba804282b5c8813486b6c, type: 3}
-      speakerName: ...
-      text: "*Min'en her zamanki yerine oturmu\u015F ve insanlar\u0131n insan olu\u015Flar\u0131n\u0131
-        seyretmeye devam ediyor."
+      text: Hmm.. Tamam. Olur, fark etmez.
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 0}
+      speakerName: ...
+      text: "Konu\u015Fmalar\u0131n\u0131n ard\u0131ndan odadan tuvaletten \xE7\u0131kt\u0131lar.
+        Sen de bir s\xFCre sonra tuvaletten \xE7\u0131kt\u0131n."
+    altLines:
+    - hasSoundEffect: 0
+      soundEffect: {fileID: 0}
+      speakerIcon: {fileID: 0}
+      speakerName: ...
+      text: "Min'en her zamanki yerine oturmu\u015F ve insanlar\u0131n insan olu\u015Flar\u0131n\u0131
+        seyretmeye devam ediyor."
+    - hasSoundEffect: 0
+      soundEffect: {fileID: 0}
+      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
       speakerName: Sen
       text: Merhaba.
     - hasSoundEffect: 0
@@ -172,11 +179,11 @@ MonoBehaviour:
       speakerIcon: {fileID: 21300000, guid: 4e7b17a08cb24fe439e0a2a97bba5cbf, type: 3}
       speakerName: Min'en
       text: "Merhaba, can\u0131m. \xC7ay i\xE7mek ister misin ?"
-    - hasSoundEffect: 0
-      soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: ce67151bec3ba804282b5c8813486b6c, type: 3}
+    - hasSoundEffect: 1
+      soundEffect: {fileID: 8300000, guid: 3ee3ee59be05530409a04a42ed6e008c, type: 3}
+      speakerIcon: {fileID: 0}
       speakerName: ...
-      text: "*\xC7ay\u0131n\u0131z\u0131 i\xE7erken sana askerken yapt\u0131klar\u0131ndan
+      text: "\xC7ay\u0131n\u0131z\u0131 i\xE7erken sana askerken yapt\u0131klar\u0131ndan
         bahsetti. Girdi\u011Fi galaksiler aras\u0131 sava\u015Flar\u0131, \xE7at\u0131\u015Ft\u0131\u011F\u0131
         sava\u015F alanlar\u0131n\u0131 ve nicesi. Bu anlatt\u0131klar\u0131n\u0131
         dinlemek ne kadar ho\u015F ve ilgi \xE7ekici olsa da anlatt\u0131klar\u0131
@@ -186,11 +193,11 @@ MonoBehaviour:
         beraber, k\xFC\xE7\xFCk bir bahane bulup uzakla\u015Ft\u0131n.*"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: ce67151bec3ba804282b5c8813486b6c, type: 3}
+      speakerIcon: {fileID: 0}
       speakerName: ...
-      text: "*Bu konu\u015Fma o kadar da zaman kayb\u0131 de\u011Fildi, en az\u0131ndan
+      text: "Bu konu\u015Fma o kadar da zaman kayb\u0131 de\u011Fildi, en az\u0131ndan
         arada Min'en'den sat\u0131lacak e\u015Fyalardan ilk ikisin de de\u011Ferinin
-        ayn\u0131 oldu\u011Funu \xF6\u011Frendin.*"
+        ayn\u0131 oldu\u011Funu \xF6\u011Frendin."
   - sessionNumber: 4
     defaultLines: []
     altLines: []

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: 
   displayName: Sen
-  bioText: sd
+  bioText: 
   mainSprite: {fileID: 0}
   icon: {fileID: 0}
   charIndex: 0

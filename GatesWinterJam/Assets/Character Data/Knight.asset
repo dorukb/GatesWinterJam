@@ -13,45 +13,37 @@ MonoBehaviour:
   m_Name: Knight
   m_EditorClassIdentifier: 
   displayName: Thomas
-  bioText: i want pretty princess' to save
+  bioText: 
   mainSprite: {fileID: 21300000, guid: 0ebface8171e5ca49af49abb87e71731, type: 3}
   icon: {fileID: 21300000, guid: dafbd35e6e24b774da7d8305bbe42833, type: 3}
   charIndex: 3
   dialogues:
   - sessionNumber: 0
-    defaultLines:
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: 
-      text: 
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: 
-      text: 
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: 
-      text: 
-    - isDecisionLine: 0
-      speakerIcon: {fileID: 0}
-      speakerName: 
-      text: 
+    defaultLines: []
     altLines: []
   - sessionNumber: 1
     defaultLines: []
     altLines: []
   - sessionNumber: 2
     defaultLines:
-    - isDecisionLine: 0
+    - hasSoundEffect: 0
+      soundEffect: {fileID: 0}
       speakerIcon: {fileID: 0}
-      speakerName: Knight
-      text: "Anlat\u0131c\u0131: Yapacak bir \u015Feyler ararken, g\xF6z\xFCn koridorun
-        yan\u0131ndaki masaya oturmu\u015F Thomas ve Silas'\u0131n, satran\xE7 tahtas\u0131n\u0131n
+      speakerName: ...
+      text: "Yapacak bir \u015Feyler ararken, g\xF6z\xFCn koridorun yan\u0131ndaki
+        masaya oturmu\u015F Thomas ve Silas'\u0131n, satran\xE7 tahtas\u0131n\u0131n
         ba\u015F\u0131nda oyunla alakal\u0131 konu\u015Ftuklar\u0131n duyuyorsun.
         Yanlar\u0131na gitmeyi akl\u0131ndan ge\xE7irsen de satran\xE7 hakk\u0131nda
         konu\u015Fman\u0131n daha s\u0131k\u0131c\u0131 olabilece\u011Fini d\xFC\u015F\xFCnd\xFC\u011F\xFCnden
         vaz ge\xE7iyorsun."
-    altLines: []
+    altLines:
+    - hasSoundEffect: 1
+      soundEffect: {fileID: 8300000, guid: 2ea65df5eeb24004e9f1fabd023ccdde, type: 3}
+      speakerIcon: {fileID: 0}
+      speakerName: ...
+      text: "Etraf\u0131na bak\u0131nd\u0131\u011F\u0131nda, Thomas'\u0131 fark ediyorsun.
+        Sinirli ve k\xFCf\xFCr ederek d\u0131\u015Far\u0131 \xE7\u0131k\u0131yor.
+        Yeti\u015Fmeye \xE7al\u0131\u015Fsan da yeti\u015Femiyorsun."
   - sessionNumber: 3
     defaultLines: []
     altLines: []
