@@ -49,19 +49,18 @@ MonoBehaviour:
       text: "Sen, yeni kat\u0131lacak al\u0131c\u0131s\u0131n de\u011Fil mi ?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Evet. \u015Eimdi gelebildim. "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
       speakerName: Maske
-      text: "Tamamd\u0131r. Sana kurallar\u0131 ve olacaklar\u0131 h\u0131zl\u0131ca
-        anlataca\u011F\u0131m ve hi\xE7 tekrar etme niyetinde de\u011Filim. \u0130yi
-        dinle o y\xFCzden, tamam m\u0131 ?"
+      text: "Nedendir bilmem ama sana i\xE7im \u0131s\u0131nd\u0131 \xE7ocuk. O y\xFCzden
+        sana birka\xE7 t\xFCyo verece\u011Fim. \u0130yi dinle tamam m\u0131 ?"
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: "Tamamd\u0131r. "
     - hasSoundEffect: 0
@@ -69,8 +68,12 @@ MonoBehaviour:
       speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
       speakerName: Maske
       text: "5 tane a\xE7\u0131k art\u0131rma ve 5 oturum ger\xE7ekle\u015Fecek.
-        \r\nHer oturumda 3 adet e\u015Fya sat\u0131lacak. Bu e\u015Fyalar gizli olacak.
-        Aralarda istedi\u011Fini yapabilirsin. Birileriyle falan konu\u015Fabilirsin
+        Her oturumda 3 adet e\u015Fya sat\u0131lacak. Bu e\u015Fyalar gizli olacak. "
+    - hasSoundEffect: 0
+      soundEffect: {fileID: 0}
+      speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
+      speakerName: Maske
+      text: "Aralarda istedi\u011Fini yapabilirsin. Birileriyle falan konu\u015Fabilirsin
         sana kalm\u0131\u015F. "
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
@@ -78,42 +81,43 @@ MonoBehaviour:
       speakerName: Maske
       text: "Anla\u015Fman gere\u011Fi, de\u011Ferli \u015Feyler sat\u0131n alman
         gerekiyor unutma. E\u011Fer yeterince de\u011Ferli e\u015Fyaya sahip olamazsan,
-        anla\u015Fma bozulur.\r\nBunun d\u0131\u015F\u0131nda hile yapmaya \xE7al\u0131\u015Fman\u0131
-        hi\xE7 \xF6nermem. Sat\u0131c\u0131 bu konuyu \xE7ok \xF6nemsiyor.\r\nKurallar\u0131
-        biliyorsun de\u011Fil mi ?"
-    - hasSoundEffect: 0
-      soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
-      speakerName: Sen
-      text: "Hay\u0131r, kimse kurallar hakk\u0131nda bir \u015Fey s\xF6ylemedi. "
+        anla\u015Fma bozulur."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
       speakerName: Maske
-      text: Offff...
+      text: "Bunun d\u0131\u015F\u0131nda hile yapmaya \xE7al\u0131\u015Fman\u0131
+        hi\xE7 \xF6nermem. Sat\u0131c\u0131 bu konuyu \xE7ok \xF6nemsiyor."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
       speakerName: Maske
-      text: "Her neyse bir \u015Fey \xE7almaman ve e\u015Fya dolab\u0131na girmemen
-        yeterli olacakt\u0131r. \r\nHatal\u0131 bir hareketinde sonun Medusa'n\u0131n
-        ba\u015F\u0131na gelen gibi olur."
+      text: "Bir \u015Fey \xE7almaman ve e\u015Fya dolab\u0131na girmemen yeterli
+        olacakt\u0131r. Hatal\u0131 bir hareketinde sonun Medusa'n\u0131n ba\u015F\u0131na
+        gelen gibi olur."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: d7f7df476cb84404e83b7eff3b8f8970, type: 3}
+      speakerIcon: {fileID: 21300000, guid: 3ff60e9a13858ef48b5af00b8abb228f, type: 3}
       speakerName: Sen
       text: Ne oldu ki ona ?
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
       speakerName: Maske
-      text: "Bo\u015F ver.\r\nE\u011Fer bir \u015Fey sormak istersen benim yan\u0131ma
-        gelebilirsin. Ve de aralarda u\u011Frayabilirsin yan\u0131ma, e\u011Fer bir
-        \u015Feyler \xF6\u011Frenebilirsem sana anlat\u0131r\u0131m.\r\nSadece \xE7ok
-        belli etme benim ile konu\u015Ftu\u011Fumu, e\u011Fer yakalan\u0131rsam sana
-        yard\u0131m edemem.\r\n Son olarak, kime g\xFCvendi\u011Fine dikkat et. Di\u011Fer
-        al\u0131c\u0131lar kendi \xE7\u0131karlar\u0131 i\xE7in kullanabilir, dikkat
-        et."
+      text: "Bo\u015F ver... Bir \u015Fey sormak istersen benim yan\u0131ma gelebilirsin.
+        E\u011Fer bir \u015Feyler \xF6\u011Frenebilirsem sana anlat\u0131r\u0131m."
+    - hasSoundEffect: 0
+      soundEffect: {fileID: 0}
+      speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
+      speakerName: Maske
+      text: "Sadece \xE7ok belli etme benim ile konu\u015Ftu\u011Fumu, e\u011Fer
+        yakalan\u0131rsam sana yard\u0131m edemem."
+    - hasSoundEffect: 0
+      soundEffect: {fileID: 0}
+      speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
+      speakerName: Maske
+      text: "Son olarak, kime g\xFCvendi\u011Fine dikkat et. Di\u011Fer al\u0131c\u0131lar
+        kendi \xE7\u0131karlar\u0131 i\xE7in kullanabilir, dikkat et."
     altLines: []
   - sessionNumber: 1
     defaultLines:
@@ -161,19 +165,14 @@ MonoBehaviour:
       speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
       speakerName: Maske
       text: "Sadece \xFCzerinde sonsuz olas\u0131l\u0131\u011F\u0131n yazd\u0131\u011F\u0131
-        ve bir \u015Feyin ba\u015F\u0131n\u0131n oldu\u011Funu hat\u0131rl\u0131yorum.
-        Sonsuz olas\u0131l\u0131\u011F\u0131n yazd\u0131\u011F\u0131 \u015Fey de\u011Ferli,
+        ve bir \u015Feyin oldu\u011Funu hat\u0131rl\u0131yorum. Bu e\u015Fya de\u011Ferli,
         onu almaya \xE7al\u0131\u015Fmal\u0131s\u0131n."
     - hasSoundEffect: 0
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 0}
       speakerName: ...
-      text: "Koridordan birilerinin geldi\u011Fini duydun."
-    - hasSoundEffect: 0
-      soundEffect: {fileID: 0}
-      speakerIcon: {fileID: 21300000, guid: c6ea5d39bf36cf647881f7c43bc16a79, type: 3}
-      speakerName: Maske
-      text: "Gelecekte kime g\xFCvendi\u011Fine dikkat et."
+      text: "Koridordan birilerinin geldi\u011Fini duydun ve konu\u015Fman\u0131z
+        kesildi."
     altLines: []
   - sessionNumber: 3
     defaultLines:
@@ -194,7 +193,7 @@ MonoBehaviour:
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 0}
       speakerName: ...
-      text: "Konu\u015Fman\u0131z yine yakla\u015Fan ayak sesleriyle b\xF6l\xFCn\xFCr."
+      text: "Konu\u015Fman\u0131z yakla\u015Fan ayak sesleriyle b\xF6l\xFCn\xFCr."
     altLines: []
   - sessionNumber: 4
     defaultLines:
@@ -202,7 +201,12 @@ MonoBehaviour:
       soundEffect: {fileID: 0}
       speakerIcon: {fileID: 0}
       speakerName: ...
-      text: " Maskeyi 5. oturumdan \xF6nce son bir kez g\xF6rmek i\xE7in gitti\u011Finde
-        yerinde olmad\u0131\u011F\u0131n\u0131 fark ettin. Fark ettirmeden etrafa
-        bakmaya \xE7al\u0131\u015Fsan da ne yaz\u0131k ki bulamad\u0131n onu."
+      text: "Maskeyi 5. oturumdan \xF6nce son bir kez g\xF6rmek i\xE7in gitti\u011Finde
+        yerinde olmad\u0131\u011F\u0131n\u0131 fark ettin. "
+    - hasSoundEffect: 0
+      soundEffect: {fileID: 0}
+      speakerIcon: {fileID: 0}
+      speakerName: ...
+      text: "Fark ettirmeden etrafa bakmaya \xE7al\u0131\u015Fsan da ne yaz\u0131k
+        ki bulamad\u0131n onu."
     altLines: []

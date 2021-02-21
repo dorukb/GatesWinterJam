@@ -515,12 +515,6 @@ MonoBehaviour:
     speakerIcon: {fileID: 0}
     speakerName: 
     text: " Bol \u015Fanslar.\r"
-  - hasSoundEffect: 0
-    soundEffect: {fileID: 0}
-    speakerIcon: {fileID: 0}
-    speakerName: 
-    text: "bi\u015Filer 5bi\u015Filer 5bi\u015Filer 5bi\u015Filer 5bi\u015Filer 5bi\u015Filer
-      5"
 --- !u!4 &642291221
 Transform:
   m_ObjectHideFlags: 0
